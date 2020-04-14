@@ -1,0 +1,36 @@
+.icons-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left:800px
+
+}
+
+.img-pawprint-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.name-navbar {
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 3px;
+}
+
+
+.Navbar {
+    background: #511845;
+    padding: 1em 2em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+  .tinder-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
