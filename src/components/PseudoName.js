@@ -1,6 +1,6 @@
 import React from 'react';
-import './PseudoName.css'
-import { render } from '@testing-library/react';
+import './PseudoName.css';
+import axios from 'axios';
 
 class PseudoName extends React.Component {
     state = {
@@ -8,15 +8,20 @@ class PseudoName extends React.Component {
     }
 
     getName = () => {
-        url = "https://api.namefake.com/";
-        axios.get(url);
-        .then()
+        axios
+        .get("https://randomuser.me/api/")
+        .then(res => this.setState({ userName: res.data }));
+    }
+
+    componentDidMount() {
+        this.getName()
     }
 
     render() {
+        console.log(this.state.userName.results);
         return(
             <div>
-                <p>{this.state.userName}</p>
+                <p>{this.state.userName.name}</p>
             </div>
         )
     }
