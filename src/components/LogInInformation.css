@@ -1,0 +1,22 @@
+
+.blockLogInInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#email, #password, #repeatPassword{
+    margin-top: 5px ;
+    margin-bottom: 5px ;
+    display: flex;
+    flex-direction: row;
+} 
+
+@media screen and (min-width: 800px){
+
+.blockLogInInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+}

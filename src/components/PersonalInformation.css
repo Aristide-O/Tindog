@@ -1,0 +1,28 @@
+
+.blockPersonalInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* #pseudo, #firstname, #sex{
+    margin-top: 5px ;
+    margin-bottom: 5px ;
+    display: flex;
+    flex-direction: row;
+}  */
+
+@media screen and (min-width: 800px){
+
+.blockPersonalInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pseudo, #firstName, #sex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+}
