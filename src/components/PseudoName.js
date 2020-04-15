@@ -10,7 +10,7 @@ class PseudoName extends React.Component {
     getName = () => {
         axios
         .get("https://randomuser.me/api/")
-        .then(res => this.setState({ userName: res.data }));
+        .then(res => this.setState({ userName: res.data.results[0] }));
     }
 
     componentDidMount() {
@@ -18,11 +18,8 @@ class PseudoName extends React.Component {
     }
 
     render() {
-        console.log(this.state.userName.results);
         return(
-            <div>
-                <p>{this.state.userName.name}</p>
-            </div>
+                <p className="name-dog">{this.state.userName.name && this.state.userName.name.first}</p>
         )
     }
 }
