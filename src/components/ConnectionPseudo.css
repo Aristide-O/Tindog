@@ -1,0 +1,4 @@
+.co-pseudo {
+    display: flex;
+    flex-flow: row nowrap;
+}
