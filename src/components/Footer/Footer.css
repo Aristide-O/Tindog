@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap");
+
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+.footer-background {
+    display: flex;
+    justify-content: space-around;
+    background-color: #511845;   
+    font-size: 25px;
+
+}
+
+.footer-faq {
+    display: flex;
+    align-items: center;
+}
+
+ul, li {
+    list-style-type: none;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
