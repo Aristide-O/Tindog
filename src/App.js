@@ -1,7 +1,6 @@
 import React from 'react';
 
 import InscriptionButton from './components/InscriptionButton';
-import PersonalInformation from './components/PersonalInformation';
 import LogInInformation from './components/LogInInformation';
 import ProfilePhoto from './components/ProfilePhoto';
 
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
       <ProfilePhoto/>
       <LogInInformation/>
-      <PersonalInformation/>
       <InscriptionButton/>
     </div>
   );
