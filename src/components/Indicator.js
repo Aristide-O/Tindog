@@ -3,14 +3,12 @@ import './Indicator.css'
 
 class Indicator extends React.Component {
     state ={
-        isOnline : true
+        isOnline : false
     }
 
     render() {
         return(
-            <div>
                 <div className={this.state.isOnline ? "online" : "offline" }></div>
-            </div>
         )
     }
 }
