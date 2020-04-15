@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ConnectionPseudo from './components/ConnectionPseudo';
+import CardType from './components/CardType';
 
 
 function App() {
   return (
     <div className="App">
-      <ConnectionPseudo />
+      <CardType />
     </div>
   );
 }
