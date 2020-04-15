@@ -39,6 +39,6 @@ img {
         width: 7%;
         margin-left: 46%;
         margin-right: 46%;
-        float: left;
+        /* float: left; */
     }
 }

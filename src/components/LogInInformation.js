@@ -90,7 +90,7 @@ class LogInInformation extends React.Component {
           id="location"
           type="text"
           value={this.state.location}
-          onChange={this.handleLocation}
+          onChange={this.handleChangeLocation}
         />
         </div>
       </div>
