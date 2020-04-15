@@ -1,33 +1,13 @@
 import React from 'react'
 
+import './ProfilePhoto.css'
+
 class ProfilePhoto extends React.Component{
-    // constructor (props){
-    //     super (props)
-    //     this.state = {
-    //         profilePhoto: '',
-    //     }
-    // this.handleChangeProfilePhoto = this.handleChangeProfilePhoto.bind(this);
-    // }
-
-    // handleChangeProfilePhoto(event) {
-    //     this.setState({ profilePhoto: event.target.value });
-    //   }
-
-
-    // render(){
-    //     return (
-    //         <div>
-    //         <label htmlFor="profilePhoto">Your Photo </label>
-    //         <input type="file" ref={this.state.profilePhoto} />
-    //         <img onSubmit={this.handleChangeProfilePhoto} scr={this.state.profilePhoto} alt = "Your pic"/>
-    //         </div>
-    //     )
-    // }
 
     constructor(props){
         super(props)
         this.state = {
-          profilePhoto: ''
+          profilePhoto: 'https://miro.medium.com/max/560/1*MccriYX-ciBniUzRKAUsAw.png'
         }
         this.handleChange = this.handleChange.bind(this)
       }
@@ -38,13 +18,12 @@ class ProfilePhoto extends React.Component{
       }
       render() {
         return (
-          <div>
-            <input type="file" onChange={this.handleChange}/>
+          <div className="profilePhoto">
             <img src={this.state.profilePhoto}/>
+            <input className="file" type="file" onChange={this.handleChange}/>
           </div>
         );
       }
-
 }
 
 

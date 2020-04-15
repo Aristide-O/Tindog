@@ -1,5 +1,19 @@
 .inscriptionButton{
-background-color: #900c3f;
-color: white;
-font-family: 'Dosis', sans-serif;
+    background-color:white;
+    border-radius: 2px;
+    border: white;
+    color: #900c3f;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (min-width: 800px){
+    .inscriptionButton{
+        margin-right: 50px;
+}
 }
