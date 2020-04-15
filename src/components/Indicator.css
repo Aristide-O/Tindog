@@ -1,13 +1,12 @@
-.online {
+.online, .offline {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: rgb(64, 146, 71);
+    margin-top: 4px;
+    margin-right: 5px;
 }
 
 .offline {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
     background-color: rgb(221, 70, 56);
 }
