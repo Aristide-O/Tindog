@@ -1,4 +1,5 @@
 import React from 'react'
+import DatePicker from 'react-date-picker'
 import './LogInInformation.css'
 
 class LogInInformation extends React.Component {
@@ -9,7 +10,7 @@ class LogInInformation extends React.Component {
       email: '',
       password: '',
       sex: '',
-      dateOfBirth: '',
+      dateOfBirth: new Date(),
       description: '',
       location: '',
     }
@@ -20,7 +21,6 @@ class LogInInformation extends React.Component {
     this.handleChangeSex = this.handleChangeSex.bind(this)
     this.handleChangeDateOfBirth = this.handleChangeDateOfBirth.bind(this);
     this.handleChangeDescription = this.handleChangeDescription.bind(this);
-    // this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChangePseudo(event) {
@@ -41,6 +41,9 @@ class LogInInformation extends React.Component {
   handleChangeDescription(event) {
     this.setState({ description: event.target.value });
   }
+
+  //selact date from DatePicker
+  onChange = date => this.setState({ date })
 
   render() {
     return (
@@ -72,6 +75,11 @@ class LogInInformation extends React.Component {
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select>
+        <label htmlFor="dateOfBirth">Date of Birth: </label>
+        <DatePicker
+          onChange={this.onChange}
+          value={this.state.date}
+        />
         <label htmlFor="description">Description:</label>
         <textarea value={this.state.description} onChange={this.handleChangeDescription} />
       </div>
