@@ -1,5 +1,6 @@
 import React from 'react'
 import DatePicker from 'react-date-picker'
+import ProfilePhoto from './ProfilePhoto'
 import './LogInInformation.css'
 
 class LogInInformation extends React.Component {
@@ -44,6 +45,7 @@ class LogInInformation extends React.Component {
   render() {
     return (
       <div className="blockLogInInformation">
+        <ProfilePhoto/>
         <div className="block1">
           <label htmlFor="pseudo">Pseudo: </label>
           <input
