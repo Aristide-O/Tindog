@@ -19,7 +19,7 @@ class PseudoName extends React.Component {
 
     render() {
         return(
-                <p className="name-dog">{this.state.userName.name && this.state.userName.name.first}</p>
+                <p className="name-dog"><b>{this.state.userName.name && this.state.userName.name.first}</b>, 7yo</p>
         )
     }
 }
