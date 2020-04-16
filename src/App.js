@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Logo from '/home/wilder/paris-0320-prject2-tindog/src/components/LogoTindog.png'
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
+import './App.css'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className='logo-homepage' src={Logo} alt='Logo'/>
+      <SignIn/>
+      <SignUp/>
     </div>
   );
 }
 
-export default App;
+
+export default App; 
