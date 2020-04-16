@@ -1,4 +1,6 @@
 .co-pseudo {
     display: flex;
     flex-flow: row nowrap;
+    margin-left: 2em;
+    margin-top: 0.5em;
 }
