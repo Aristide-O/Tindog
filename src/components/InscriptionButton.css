@@ -1,8 +1,13 @@
 .inscriptionButton{
-    background-color:white;
-    border-radius: 2px;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #900c3f;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
     border: white;
-    color: #900c3f;
+    color:white;
     font-family: 'Dosis', sans-serif;
     display: flex;
     margin: 0 auto;
@@ -12,8 +17,12 @@
 
 
 
+
 @media screen and (min-width: 800px){
     .inscriptionButton{
         margin-right: 50px;
+        width: 100px;
+        height: 50px;
+        font-size: 28px;
 }
 }
