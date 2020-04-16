@@ -43,11 +43,22 @@ select{
 
 
 
-@media screen and (min-width: 800px){
- 
+@media screen and (min-width: 800px) {
 
 .blockLogInInformation {
     font-size: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block1{
+    margin-left: 60px;
 }
 
 }

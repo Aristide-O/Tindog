@@ -20,13 +20,13 @@ class LogInInformation extends React.Component {
   handleChangePseudo = (event) => {
     this.setState({ pseudo: event.target.value });
   }
-  handleChangeEmail = (event) =>  {
+  handleChangeEmail = (event) => {
     this.setState({ email: event.target.value });
   }
   handleChangePassword = (event) => {
     this.setState({ password: event.target.value });
   }
-  handleChangeSex = (event) =>{
+  handleChangeSex = (event) => {
     this.setState({ sex: event.target.value });
   }
   handleChangeDateOfBirth = (event) => {
@@ -45,34 +45,36 @@ class LogInInformation extends React.Component {
   render() {
     return (
       <div className="blockLogInInformation">
-        <ProfilePhoto/>
-        <div className="block1">
-          <label htmlFor="pseudo">Pseudo: </label>
-          <input
-            id="pseudo"
-            type="text"
-            value={this.state.pseudo}
-            onChange={this.handleChangePseudo}
-            required
-          />
+        <div className="leftblock">
+          <ProfilePhoto />
+          <div className="block1">
+            <label htmlFor="pseudo">Pseudo: </label>
+            <input
+              id="pseudo"
+              type="text"
+              value={this.state.pseudo}
+              onChange={this.handleChangePseudo}
+              required
+            />
+            <label htmlFor="email">Email address: </label>
+            <input
+              id="email"
+              type="email"
+              value={this.state.email}
+              onChange={this.handleChangeEmail}
+              required
+            />
+            <label htmlFor="password">Password: </label>
+            <input
+              id="password"
+              type="password"
+              value={this.state.password}
+              onChange={this.handleChangePassword}
+              required
+            />
+          </div>
         </div>
-        <label htmlFor="email">Email address: </label>
-        <input
-          id="email"
-          type="email"
-          value={this.state.email}
-          onChange={this.handleChangeEmail}
-          required
-        />
-        <label htmlFor="password">Password: </label>
-        <input
-          id="password"
-          type="password"
-          value={this.state.password}
-          onChange={this.handleChangePassword}
-          required
-        />
-        <div className="block1">
+        <div className="block2">
           <label htmlFor="sex">Sex: </label>
           <select value={this.state.value}
             onChange={this.handleChangeSex}>
@@ -89,11 +91,11 @@ class LogInInformation extends React.Component {
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
           <label htmlFor="location">Location: </label>
           <input
-          id="location"
-          type="text"
-          value={this.state.location}
-          onChange={this.handleChangeLocation}
-        />
+            id="location"
+            type="text"
+            value={this.state.location}
+            onChange={this.handleChangeLocation}
+          />
         </div>
       </div>
     )
