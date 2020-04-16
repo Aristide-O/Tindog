@@ -3,10 +3,16 @@
     height: 10px;
     border-radius: 50%;
     background-color: rgb(64, 146, 71);
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: 5px;
 }
 
 .offline {
     background-color: rgb(221, 70, 56);
+}
+
+@media screen and (max-width:900px) {
+    .online, .offline {
+        margin-top: 10px;
+    }
 }
