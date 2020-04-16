@@ -3,7 +3,7 @@ import './Indicator.css'
 
 class Indicator extends React.Component {
     state ={
-        isOnline : false
+        isOnline : true
     }
 
     render() {
