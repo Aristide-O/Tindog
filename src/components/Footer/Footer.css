@@ -13,17 +13,57 @@
 
 }
 
-.footer-faq {
-    display: flex;
-    align-items: center;
+.icon-footer {
+    margin-top: 27px;
+}
+
+.icon-footer-paws {
+    width: 80px;
+    height: 80px;
 }
 
 ul, li {
     list-style-type: none;
-    color: white
+    color: white;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+        
+    }
+
+    .icon-footer {
+        margin-top: 0em;
+    }
+
+
+    .icon-footer-paws {
+        display: none;
+        
+    }
+  
+    .footer-background {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        
+        
+    
+  }
 }
