@@ -1,19 +1,21 @@
 import React from 'react';
-import Logo from './components/LogoTindog.png'
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import './App.css'
 import Navbar from "./components/Navbar.js"
 import './components/Footer/Footer.css';
-import Footer from  "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> 
-      <img className='logo-homepage' src={Logo} alt='Logo'/>
-      <SignIn/>
-      <SignUp/>
+      <Navbar />
+      <div className="background">
+        <div className="button">
+          <SignIn />
+          <SignUp />
+        </div>
+      </div>
       <Footer />
     </div>
   );
