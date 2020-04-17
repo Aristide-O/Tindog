@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #511845;   
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -18,14 +18,18 @@
 }
 
 .icon-footer-paws {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 ul, li {
     list-style-type: none;
     color: white;
     padding: 0px;
+}
+
+ul {
+    margin-top: 27px;
 }
 
 a {
