@@ -7,16 +7,16 @@
 }
 
 .background {
-  background-image: url('./components/LogoTindog.png');
+  background-image: url('./components/Tindog-Transparent_all.png');
   background-repeat: no-repeat;
   padding-top: 200px;
-  padding-bottom: 200px;
-  background-position: center;
+  background-position: top;
 }
 
 .button {
-  position: absolute;
-  top: 200px;
+  margin-top: 280px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -27,4 +27,3 @@
   }
 
 }
-

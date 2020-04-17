@@ -2,7 +2,8 @@
 
 nav {
   background: #511845;
-  padding: 0.5em 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   color: white;
   display: flex;
   justify-content: space-between;
