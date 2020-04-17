@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-img {
+.photo {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -28,7 +28,7 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-    img {
+    .photo {
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;

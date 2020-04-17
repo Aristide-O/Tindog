@@ -18,9 +18,9 @@ function App() {
         <div className="button">
           <SignIn />
           <SignUp />
-        </div>
-      </div> 
-      <InscriptionPage/>*/}
+        </div> */}
+      {/* </div>  */}
+      {/* <InscriptionPage/> */}
       <CardType />
       <Footer />
     </div>
