@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
+
+.inscriptionPage {
+    font-family:  'Dosis', sans-serif;
+    background-color: white;  
+    padding: 10px;
+   
+  }
+  
+  
+  @media screen and (min-width: 800px) {
+    .inscriptionPage {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }

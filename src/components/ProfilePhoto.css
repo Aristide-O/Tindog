@@ -1,0 +1,46 @@
+.profilePhoto {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid  #900c3f;
+    border-top : 2px solid  #511845; 
+    box-shadow: 2px 2px 1px grey;
+    object-fit: cover;
+}
+
+.file{
+    background-color: #900c3f;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
+    width: 22%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .file{
+        width: 17%;
+        margin-left: 40%;
+        align-self: center;
+    }
+}

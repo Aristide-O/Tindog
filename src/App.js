@@ -1,13 +1,14 @@
 import React from 'react';
+
 import CardType from './components/CardType';
-import Navbar from "./components/Navbar.js"
 import Footer from "./components/Footer/Footer"
+import InscriptionPage from './components/InscriptionPage';
+import Navbar from "./components/Navbar.js"
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
 import './App.css'
 import './components/Footer/Footer.css';
-
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <SignIn />
           <SignUp />
         </div>
-      </div> */}
+      </div> 
+      <InscriptionPage/>*/}
       <CardType />
       <Footer />
     </div>
