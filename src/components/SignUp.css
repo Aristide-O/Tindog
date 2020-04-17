@@ -1,0 +1,21 @@
+.SignUp{
+    display:block;
+    width:110px;
+    line-height:40px;
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color:#511845;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-decoration:none;
+    border-radius: 5px; 
+  
+    
+}
+
+
+/* si tuveux changer le stile quant tu pass dessu avec la souris
+/* /* .SignUp:hover 
+
+ */ 
