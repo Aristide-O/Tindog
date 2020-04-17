@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="background">
+      {/* <div className="background">
         <div className="button">
           <SignIn />
           <SignUp />
         </div>
-      </div>
+      </div> */}
       <CardType />
       <Footer />
     </div>
