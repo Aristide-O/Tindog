@@ -1,5 +1,16 @@
 .App {
  display: flex;
  flex-direction: column;
+ text-align: center;
+ background-color: #91043a;  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .logo-homepage {
+    width: 300px;
+    height: 300px;
+  }
 
 }
+
