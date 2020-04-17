@@ -1,8 +1,8 @@
 .App {
-  text-align: center;
-  background-color: #91043a;
-
-  
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ background-color: #91043a;  
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -13,5 +13,4 @@
   }
 
 }
-
 
