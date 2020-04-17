@@ -1,6 +1,6 @@
 import React from 'react';
-import InscriptionButton from '/Users/gretamezzina/Desktop/WCS/paris-0320-prject2-tindog/src/components/InscriptionButton.js';
-import LogInInformation from '/Users/gretamezzina/Desktop/WCS/paris-0320-prject2-tindog/src/components/LogInInformation.js';
+import InscriptionButton from './InscriptionButton';
+import LogInInformation from './LogInInformation';
 import './InscriptionPage.css';
 
 class InscriptionPage extends React.Component {

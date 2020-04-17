@@ -19,7 +19,7 @@ class ProfilePhoto extends React.Component{
       render() {
         return (
           <div className="profilePhoto">
-            <img src={this.state.profilePhoto}/>
+            <img className="photo" src={this.state.profilePhoto}/>
             <input className="file" type="file" onChange={this.handleChange}/>
           </div>
         );
