@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
+
+nav {
+  background: #511845;
+  padding: 0.5em 2em;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+}
+
+.icons-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-icons-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.img-pawprint-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.img-burger-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  display: none;
+}
+
+.name-navbar {
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name-navbar-hidden {
+  display: none;
+}
+
+.tinder-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  nav {
+    background: #511845;
+    padding: 0.5em 2em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  .icons-navbar {
+    display: none;
+  }
+
+  .img-burger-navbar {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  .name-navbar {
+    display: none;
+  }
+
+  .name-navbar-hidden {
+    display: block;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
