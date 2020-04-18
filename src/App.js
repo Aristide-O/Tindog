@@ -20,8 +20,8 @@ function App() {
           <SignUp />
         </div> */}
       {/* </div>  */}
-      {/* <InscriptionPage/> */}
-      <CardType />
+      <InscriptionPage/>
+      {/* <CardType /> */}
       <Footer />
     </div>
   );
