@@ -26,20 +26,16 @@ label{
     text-align: start;
 }
 
-input, textarea {
+input, textarea, select {
     border: white;
     border-radius: 5px;
     border: 2px solid  #900c3f;
     border-top : 2px solid  #511845; 
     box-shadow: 2px 2px 1px grey;
-}
-
-
-select{
-    border-radius: 5px;
-    border: 2px solid  #900c3f;
-    border-top : 2px solid  #511845; 
-    box-shadow: 2px 2px 1px grey;
+    height: 30px;
+    font-family:  'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: white;  
 }
 
 .react-date-picker__wrapper {
@@ -50,6 +46,7 @@ select{
     box-shadow: 2px 2px 1px grey;
     flex-grow: 1;
     flex-shrink: 0;
+    height: 40px;
   
 }
 
