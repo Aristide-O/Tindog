@@ -57,7 +57,6 @@ nav {
 @media (min-width: 320px) and (max-width: 767px) {
   nav {
     background: #511845;
-    padding: 0.5em 2em;
     color: white;
     display: flex;
     justify-content: space-around;
