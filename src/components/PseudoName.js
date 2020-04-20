@@ -17,9 +17,13 @@ class PseudoName extends React.Component {
         this.getName()
     }
 
+    getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
     render() {
         return(
-                <p className="name-dog"><b>{this.state.userName.name && this.state.userName.name.first}</b>, 7yo</p>
+            <p className="name-dog"><b>{this.state.userName.name && this.state.userName.name.first}</b>, {this.getRandomInt(15)}yo</p>
         )
     }
 }
