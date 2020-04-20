@@ -13,7 +13,7 @@ import './components/Footer/Footer.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <div className="background">
         <div className="button">
           <SignIn />
@@ -22,7 +22,7 @@ function App() {
       {/* </div>  */}
       {/* <InscriptionPage/> */}
       <CardType />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
