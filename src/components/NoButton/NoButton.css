@@ -1,0 +1,11 @@
+.noButtonContainer{
+    width:150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+.noButton {
+    margin: 25px;
+    width:100px;
+    height: 100px;
+}
