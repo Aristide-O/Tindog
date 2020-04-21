@@ -2,7 +2,6 @@
     width: 80px;
     height: 30px;
     font-size: 20px;
-    text-align: center;
     background-color:#511845;
     border-radius: 5px;
     box-shadow: 2px 2px 1px grey;
@@ -12,6 +11,7 @@
     display: flex;
     margin: 0 auto;
     margin-top: 10px;
+    justify-content: center;
 }
 
 @media screen and (min-width: 800px){

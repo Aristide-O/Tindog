@@ -23,24 +23,39 @@
 
 label{
     margin-top: 10px;
+    text-align: start;
 }
 
-input, textarea {
+input, textarea, select {
     border: white;
     border-radius: 5px;
     border: 2px solid  #900c3f;
     border-top : 2px solid  #511845; 
     box-shadow: 2px 2px 1px grey;
+    height: 30px;
+    font-family:  'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: white;  
 }
 
-
-select{
+.react-date-picker__wrapper {
+    display: flex;
     border-radius: 5px;
     border: 2px solid  #900c3f;
     border-top : 2px solid  #511845; 
     box-shadow: 2px 2px 1px grey;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 40px;
+  
 }
 
+.react-date-picker__inputGroup {
+    min-width: calc((4px * 3) + 0.54em * 8 + 0.217em * 2);
+    flex-grow: 0;
+    padding: 0 2px;
+    box-sizing: content-box;
+}
 
 
 @media screen and (min-width: 800px) {
