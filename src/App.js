@@ -1,28 +1,17 @@
 import React from 'react';
+import { Route, Switch } from "react-router-dom"
 
-import CardType from './components/CardType';
-import Footer from "./components/Footer/Footer"
-import InscriptionPage from './components/InscriptionPage';
-import Navbar from "./components/Navbar.js"
-import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
-
+import LandingPage from './components/LandingPage';
 import './App.css'
-import './components/Footer/Footer.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <div className="background">
-        <div className="button">
-          <SignIn />
-          <SignUp />
-        </div> */}
-      {/* </div>  */}
-      {/* <InscriptionPage/> */}
-      <CardType />
-      <Footer />
+
+    <Switch>
+      <Route exact path="/" component={LandingPage} />
+    </Switch>
+
     </div>
   );
 }
