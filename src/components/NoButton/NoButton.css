@@ -1,4 +1,4 @@
-.noButtonContainer{
+/* .noButtonContainer{
     width:150px;
     height: 150px;
     background-color: white;
@@ -8,4 +8,12 @@
     margin: 25px;
     width:100px;
     height: 100px;
+} */
+.noButton {
+width: 128px;
+height: 128px;
+border: none;
+outline-style:none;
+background: url(/Users/gretamezzina/Desktop/paris-0320-prject2-tindog/src/components/NoButton/redPaw.png);
+background-size: 128px;
 }
