@@ -11,6 +11,10 @@
     margin-top: 5%;
 }
 
+.flex-cardType {
+    display: flex;
+}
+
 .img-card {
     width: 100%;
     border-start-start-radius: 2%;
@@ -40,4 +44,3 @@
         font-size: 18px;
     }
 }
-

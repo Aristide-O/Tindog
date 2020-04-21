@@ -1,8 +1,3 @@
-.img-match {
-  width: 128px;
-  height: 128px;
-  margin-left: 400px;
-}
 
 .button-match {
   width: 128px;
@@ -11,4 +6,8 @@
   outline-style:none;
   background: url(./icons-navbar/animal-care.png);
   background-size: 128px;
+  padding-bottom: 3%;
+  margin-bottom: 8%;
+  margin-top: -100%;
+  margin-left: 70%;
 }
