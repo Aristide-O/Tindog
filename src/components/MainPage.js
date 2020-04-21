@@ -7,6 +7,7 @@ import like from '../icons-navbar/like.png';
 // import map from '../icons-navbar/folding-map (1).png';
 import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import  '../components/Navbar.css';
+import CardType from './CardType';
 
 const MainPage = () => {
     return(
@@ -24,7 +25,7 @@ const MainPage = () => {
                     </li>
                 </ul>
             </nav>
-            
+            <CardType />
         </div>
         
     )
