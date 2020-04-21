@@ -17,6 +17,10 @@ nav {
   align-items: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 .img-icons-navbar {
   width: 32px;
   height: 32px;
@@ -57,7 +61,6 @@ nav {
 @media (min-width: 320px) and (max-width: 767px) {
   nav {
     background: #511845;
-    padding: 0.5em 2em;
     color: white;
     display: flex;
     justify-content: space-around;

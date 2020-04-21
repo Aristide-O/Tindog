@@ -10,27 +10,5 @@
   flex-direction: column;
   text-align: center;
   background-color: #91043a;  
- 
 }
 
-.background {
-  background-image: url('./components/Tindog-Transparent_all.png');
-  background-repeat: no-repeat;
-  padding-top: 200px;
-  background-position: top;
-}
-
-.button {
-  margin-top: 280px;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-
-  .logo-homepage {
-    width: 300px;
-    height: 300px;
-  }
-
-}
