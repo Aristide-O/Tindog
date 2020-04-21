@@ -1,6 +1,7 @@
 import React from 'react';
 import './CardType.css'
 import ConnectionPseudo from './ConnectionPseudo';
+import MatchButton from '../components/MatchButton'
 
 const CardType = () => {
     return(
@@ -10,7 +11,11 @@ const CardType = () => {
                 <ConnectionPseudo />
                 <p className="textDescription">Hi ! I am a sweet doggy and i am here to make friends and more if affinities</p>
                 </div>
+                <div>
+                <MatchButton />
+                </div>
             </div>
+
     )
 }
 

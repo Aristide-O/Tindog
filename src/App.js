@@ -20,12 +20,12 @@ function App() {
           <SignUp />
         </div> */}
       {/* </div>  */}
-      <InscriptionPage/>
-      {/* <CardType /> */}
+      {/* <InscriptionPage/> */}
+      <CardType />
       <Footer />
     </div>
   );
 }
 
 
-export default App; 
+export default App;
