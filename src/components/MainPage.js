@@ -13,7 +13,6 @@ const MainPage = () => {
         <div>
             <nav>
                 <ul className="icons-navbar">
-
                     <li>
                         <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
                     </li>
@@ -25,7 +24,7 @@ const MainPage = () => {
                     </li>
                 </ul>
             </nav>
-            <p>lol</p>
+            
         </div>
         
     )
