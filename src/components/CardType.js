@@ -1,7 +1,9 @@
 import React from 'react';
 import ConnectionPseudo from './ConnectionPseudo';
 import ImageCard from './ImageCard';
+import MatchButton from '../components/MatchButton'
 import './CardType.css'
+
 
 const CardType = () => {
     return(

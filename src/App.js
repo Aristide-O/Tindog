@@ -10,14 +10,12 @@ import MyProfile from "./components/MyProfile";
 function App() {
   return (
     <div className="App">
-
-    <Switch>
-      <Route exact path="/" component={LandingPage} />
-      <Route path="/mainpage" component={MainPage} />
-      <Route path="/favoriteprofile" component={FavoriteProfile} />
-      <Route path="/myprofile" component={MyProfile} />
-    </Switch>
-
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/mainpage" component={MainPage} />
+        <Route path="/favoriteprofile" component={FavoriteProfile} />
+        <Route path="/myprofile" component={MyProfile} />
+      </Switch>
     </div>
   );
 }
