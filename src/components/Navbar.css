@@ -17,6 +17,10 @@ nav {
   align-items: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 .img-icons-navbar {
   width: 32px;
   height: 32px;

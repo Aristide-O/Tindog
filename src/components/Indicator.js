@@ -8,7 +8,7 @@ class Indicator extends React.Component {
 
     render() {
         return(
-                <div className={this.state.isOnline ? "online" : "offline" }></div>
+            <div className={this.state.isOnline ? "online" : "offline" }></div>
         )
     }
 }
