@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
 
+import CardType from './CardType'
 import home from '../icons-navbar/home.png';
 import message from '../icons-navbar/speech-bubble.png';
 import like from '../icons-navbar/like.png';
@@ -25,7 +26,7 @@ const MainPage = () => {
                     </li>
                 </ul>
             </nav>
-            <p>lol</p>
+            <CardType />
         </div>
         
     )
