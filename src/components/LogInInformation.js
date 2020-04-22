@@ -1,6 +1,9 @@
 import React from 'react'
+
 import DatePicker from 'react-date-picker'
+
 import ProfilePhoto from './ProfilePhoto'
+
 import './LogInInformation.css'
 
 class LogInInformation extends React.Component {
@@ -44,7 +47,7 @@ class LogInInformation extends React.Component {
 
   render() {
     return (
-      <div className="blockLogInInformation">
+      <form className="blockLogInInformation">
         <h1>Create your account</h1>
         <div className="leftblock">
           <ProfilePhoto />
@@ -98,7 +101,7 @@ class LogInInformation extends React.Component {
             onChange={this.handleChangeLocation}
           />
         </div>
-      </div>
+      </form>
     )
   }
 }

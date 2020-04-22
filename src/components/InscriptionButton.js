@@ -6,6 +6,7 @@ import './InscriptionButton.css';
 
 
 class InscriptionButton extends React.Component {
+    
     render(){
     return (
         <Link to="MainPage">
