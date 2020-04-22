@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-
 import LandingPage from './components/LandingPage';
 import './App.css';
 import MainPage from './components/MainPage';
 import FavoriteProfile from "./components/FavoriteProfile";
 import MyProfile from "./components/MyProfile";
 import InscriptionPage from './components/InscriptionPage';
+
 
 
 function App() {
