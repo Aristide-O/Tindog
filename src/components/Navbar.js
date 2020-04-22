@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'
 import  '../components/Navbar.css';
 import pawprint_navbar from '../icons-navbar/pawprint (1).png';
 import home from '../icons-navbar/home.png';
@@ -7,6 +8,7 @@ import like from '../icons-navbar/like.png';
 import map from '../icons-navbar/folding-map (1).png';
 import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import burger from '../icons-navbar/open-menu (1).png'
+
 
 
 function Navbar() {
@@ -22,21 +24,18 @@ function Navbar() {
           </div>
 
          <div>
-
           <div className='icons-navbar'>
-           <a href='' ><img className='img-icons-navbar' src={home} alt='home'/></a>
+           <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
            <a href='' ><img className='img-icons-navbar' src={message} alt='message'/></a>
-           <a href='' ><img className='img-icons-navbar' src={like} alt='like'/></a>
+           <NavLink activeClassName="active" to='/favoriteprofile'><img className='img-icons-navbar' src={like} alt='like'/></NavLink>
            <a href='' ><img className='img-icons-navbar' src={map} alt='map'/></a>
-           <a href='' ><img className='img-icons-navbar' src={profile} alt='profile'/></a>
+           <NavLink activeClassName="active" to='/myprofile'><img className='img-icons-navbar' src={profile} alt='profile'/></NavLink>
           </div>
 
-          <div className='icons-hidden'>
-           <a href='' ><img className='img-burger-navbar' src={burger} alt='menu'/></a>
+           <div className='icons-hidden'>
+            <a href='' ><img className='img-burger-navbar' src={burger} alt='menu'/></a>
+           </div>
           </div>
-          </div>
-
-
          </nav>
     )
 
