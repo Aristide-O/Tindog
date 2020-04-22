@@ -10,6 +10,7 @@ import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import  '../components/Navbar.css';
 import NoButton from "./NoButton/NoButton";
 import MatchButton from "./MatchButton";
+import PseudoName from "./PseudoName";
 
 const MainPage = () => {
     return(
@@ -28,7 +29,7 @@ const MainPage = () => {
                 </ul>
             </nav>
             <CardType />
-            <NoButton/>
+            <NoButton />
             <MatchButton/>
         </div>
         
