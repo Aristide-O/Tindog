@@ -1,19 +1,13 @@
-/* .noButtonContainer{
-    width:150px;
-    height: 150px;
+
+.noButton {
+    width: 128px;
+    height: 128px;
+    border: none;
+    outline-style:none;
+    background: url(./broken-heart.png);
+    background-size: 80px;
+    background-repeat:no-repeat;
+    background-position: center;
     background-color: white;
     border-radius: 50%;
-}
-.noButton {
-    margin: 25px;
-    width:100px;
-    height: 100px;
-} */
-.noButton {
-width: 128px;
-height: 128px;
-border: none;
-outline-style:none;
-background: url(/Users/gretamezzina/Desktop/paris-0320-prject2-tindog/src/components/NoButton/redPaw.png);
-background-size: 128px;
-}
+  }

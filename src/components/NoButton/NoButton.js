@@ -1,14 +1,15 @@
-import React from 'react'
-import './NoButton.css'
+import React from 'react';
+import './NoButton.css';
 
 
 class NoButton extends React.Component {
-    render(){
+    render (){
     return (
         <button className="noButton" type="" onclick="">
-        </button>
-    )
-    }
+        </button> 
+      )
+}
 }
 
-export default NoButton
+
+export default NoButton;

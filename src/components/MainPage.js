@@ -8,6 +8,8 @@ import like from '../icons-navbar/like.png';
 // import map from '../icons-navbar/folding-map (1).png';
 import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import  '../components/Navbar.css';
+import NoButton from "./NoButton/NoButton";
+import MatchButton from "./MatchButton";
 
 const MainPage = () => {
     return(
@@ -26,6 +28,8 @@ const MainPage = () => {
                 </ul>
             </nav>
             <CardType />
+            <NoButton/>
+            <MatchButton/>
         </div>
         
     )

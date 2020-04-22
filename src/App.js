@@ -1,11 +1,12 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
 
-import LandingPage from './components/LandingPage';
-import './App.css';
-import MainPage from './components/MainPage';
 import FavoriteProfile from "./components/FavoriteProfile";
+import LandingPage from './components/LandingPage';
+import MainPage from './components/MainPage';
 import MyProfile from "./components/MyProfile";
+
+import './App.css';
 
 function App() {
   return (
