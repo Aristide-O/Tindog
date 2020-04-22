@@ -45,6 +45,7 @@ class LogInInformation extends React.Component {
   render() {
     return (
       <div className="blockLogInInformation">
+        <h1>Create your account</h1>
         <div className="leftblock">
           <ProfilePhoto />
           <div className="block1">
