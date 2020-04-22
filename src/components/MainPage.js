@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
 
+import CardType from './CardType'
 import home from '../icons-navbar/home.png';
 import message from '../icons-navbar/speech-bubble.png';
 import like from '../icons-navbar/like.png';
 // import map from '../icons-navbar/folding-map (1).png';
 import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import  '../components/Navbar.css';
-import CardType from './CardType';
 
 const MainPage = () => {
     return(
