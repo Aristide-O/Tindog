@@ -7,13 +7,13 @@ import like from '../icons-navbar/like.png';
 // import map from '../icons-navbar/folding-map (1).png';
 import profile from '../icons-navbar/user-image-with-black-background (1).png';
 import  '../components/Navbar.css';
+import CardType from './CardType';
 
 const MainPage = () => {
     return(
         <div>
             <nav>
                 <ul className="icons-navbar">
-
                     <li>
                         <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
                     </li>
@@ -25,7 +25,7 @@ const MainPage = () => {
                     </li>
                 </ul>
             </nav>
-            <p>lol</p>
+            <CardType />
         </div>
         
     )
