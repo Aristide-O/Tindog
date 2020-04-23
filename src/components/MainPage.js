@@ -48,7 +48,7 @@ class MainPage extends React.Component {
                 <Navbar />
                 <CardType dogData={this.state}/>
                 <NoButton fetch={()=>this.fetchData()}/>
-                <MatchButton />
+                <MatchButton name={this.state.userName}/>
                 <Footer />
             </div>
         )
