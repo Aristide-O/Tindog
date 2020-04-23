@@ -6,8 +6,7 @@ import CardType from './CardType';
 import MatchButton from "./MatchButton";
 import Navbar from './Navbar'
 import NoButton from "./NoButton/NoButton";
-
-import '../components/Navbar.css';
+import Footer from './Footer/Footer'
 
 
 class MainPage extends React.Component {
@@ -47,6 +46,7 @@ class MainPage extends React.Component {
                 <CardType dogData={this.state}/>
                 <NoButton fetch={()=>this.fetchData()}/>
                 <MatchButton />
+                <Footer />
             </div>
         )
     }
