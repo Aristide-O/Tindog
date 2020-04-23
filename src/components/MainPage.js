@@ -32,7 +32,6 @@ class MainPage extends React.Component {
     }
 
     fetchData = () =>{
-        console.log('Hello, there')
         this.getImage()
         this.getName()
     }
@@ -42,7 +41,6 @@ class MainPage extends React.Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <div className='Mainpage'>
                 <Navbar />
