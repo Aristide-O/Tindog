@@ -9,6 +9,7 @@ import NoButton from "./NoButton/NoButton";
 import Footer from './Footer/Footer'
 
 
+
 class MainPage extends React.Component {
     state = {
         image : null,
