@@ -1,6 +1,6 @@
 import React from 'react'
 import paws from '../Icons-footer/paws.png'
-import "./Footer.css"
+import './Footer.css'
 
 
 const Footer = () => {
