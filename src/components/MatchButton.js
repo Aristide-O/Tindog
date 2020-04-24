@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-
-import match from '../icons-navbar/animal-care.png'
-
 import '../MatchButton.css'
 
 function MatchButton (props) {
