@@ -1,12 +1,15 @@
 import React from "react"
-import GretaImage from "./equipe-tingog1.jpg";
-import AristideImage from "./equipe-tingog2.jpg";
-import JubaImage from "./equipe-tingog3.jpg";
-import TristanImage from "./equipe-tingog4.jpg";
-import AudreyImage from "./equipe-tingog5.jpg";
+import MembreType from "./MembreType";
+import AudreyImage from "equipe-tindog5.jpg";
+import AristideImage from "equipe-tindog2.jpg";
+import GretaImage from "equipe-tindog1.jpg";
+import JubaImage from "equipe-tindog3.jpg";
+import TristanImage from "equipe-tindog4.jpg";
+
+import './AboutUs.css';
 
 
-members = [
+const members = [
     {
         name : 'Greta',
         image : {GretaImage},
@@ -38,7 +41,10 @@ members = [
 const AboutUs = () => {
     return(
         <div className="equipe">
-            {members.map(member, index => <MembreType />)}
+            <h2 className="title-aboutus">About Us</h2>
+            {members.map((member, index) =>
+                 <MembreType key={index} image={member.image} name={member.name} alt={member.alt} />
+            )}
         </div>
     )
 }

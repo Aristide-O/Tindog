@@ -8,10 +8,12 @@ import MainPage from './components/MainPage';
 import MyProfile from "./components/MyProfile";
 
 import './App.css';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
     <div className="App">
+      <AboutUs />
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/mainpage" component={MainPage} />
