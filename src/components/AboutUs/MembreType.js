@@ -1,7 +1,6 @@
 import React from "react"
 
 const MembreType = (props) => {
-    console.log(props);
     return(
         <div className="member">
             <img className="member-img" src={props.image} alt={props.alt}/>
