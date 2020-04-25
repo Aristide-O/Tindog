@@ -1,10 +1,11 @@
 import React from "react"
 
 const MembreType = (props) => {
+    console.log(props);
     return(
-        <div>
-            <img src={props.image} alt={props.alt}/>
-            <h3>{props.name}</h3>
+        <div className="member">
+            <img className="member-img" src={props.image} alt={props.alt}/>
+            <h3 className="name-equipe">{props.name}</h3>
         </div>
     )
 }
