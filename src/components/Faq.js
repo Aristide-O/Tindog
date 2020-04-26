@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Faq from "react-faq-component";
+import Footer from "./Footer/Footer"
+import Navbar from "./Navbar"
+import SideBar from "./SideBar"
  
 const data = {
     title: "FAQ (How it works)",
@@ -24,6 +27,27 @@ const data = {
             Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
         },
         {
+            title: "Curabitur laoreet, mauris vel blandit fringilla",
+            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
+            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
+            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
+            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+        },
+        {
+            title: "Curabitur laoreet, mauris vel blandit fringilla",
+            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
+            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
+            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
+            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+        },
+        {
+            title: "Curabitur laoreet, mauris vel blandit fringilla",
+            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
+            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
+            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
+            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+        },
+        {
             title: "What is the package version",
             content: "v1.0.0",
         },
@@ -31,18 +55,21 @@ const data = {
 };
  
 const styles = {
-    // bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+    bgColor: '#F5F4FC',
+    titleTextColor: "#303030",
+    rowTitleColor: "#383838",
+    rowContentColor: '#424242',
+    arrowColor: "black",
 };
  
 export default class App extends Component {
     render() {
         return (
             <div>
+                <SideBar right/>
+                <Navbar />
                 <Faq data={data} styles={styles} />
+                <Footer />
             </div>
         );
     }
