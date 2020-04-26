@@ -55,11 +55,11 @@ const data = {
 };
  
 const styles = {
-    bgColor: '#F5F4FC',
+    bgColor: '#FFFFFF',
     titleTextColor: "#303030",
     rowTitleColor: "#383838",
     rowContentColor: '#424242',
-    arrowColor: "black",
+    arrowColor: "salmon",
 };
  
 export default class App extends Component {
