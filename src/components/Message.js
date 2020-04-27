@@ -1,15 +1,13 @@
 import React from "react"
 import Navbar from "../components/Navbar";
 
-class Message extends React.Component {
-    render(){
-        return(
-            <div>
-            <Navbar />
-                Voici mes msgs
-            </div>
-        )
-    }
+const Message = () => {
+    return(
+        <div>
+        <Navbar />
+            <p>JE SUIS SUR MES MESSAGES</p>
+        </div>
+    )
 }
 
 export default Message;

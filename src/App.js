@@ -17,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/mainpage" component={MainPage} />
+        <Route path="/message" component={Message} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
         <Route path="/myprofile" component={MyProfile} />
         <Route path="/inscriptionpage" component={InscriptionPage} />
