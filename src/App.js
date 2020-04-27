@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
 
+import AboutUs from "./components/AboutUs/AboutUs";
 import Faq from "./components/Faq";
 import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/myprofile" component={MyProfile} />
         <Route path="/inscriptionpage" component={InscriptionPage} />
         <Route path="/faq" component={Faq} />
+        <Route path="/aboutus" component={AboutUs} />
       </Switch>
     </div>
   );
