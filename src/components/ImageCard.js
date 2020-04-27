@@ -7,7 +7,7 @@ class ImageCard extends React.Component {
         return (
             <div>
                 {
-                    this.props.image ? <img className="img-card" src={this.props.image.url} alt={this.props.image.id} /> : <p>loading</p>
+                    this.props.image ? <img className="img-card" src={this.props.image.url} alt={this.props.image.id} /> : <img src="https://thumbs.gfycat.com/ForcefulImmaterialIndianskimmer-max-1mb.gif" alt="loading" />
                 }
             </div>
 
