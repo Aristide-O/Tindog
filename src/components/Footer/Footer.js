@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-faq">
                     <ul>
                         <li><Link to="/AboutUs" >About Us</Link></li>
-                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><Link to="/faq">FAQ</Link></li>
                     </ul>
                 </div>
                 <div className="icon-footer">
