@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import paws from '../Icons-footer/paws.png'
 import './Footer.css'
 
@@ -9,8 +10,8 @@ const Footer = () => {
             <footer className="footer-background">
                 <div className="footer-faq">
                     <ul>
-                        <li><a href="#AboutUs">About Us</a></li>
-                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><Link to="/faq">FAQ</Link></li>
+                        <li><Link to="/aboutus" >About Us</Link></li>
                     </ul>
                 </div>
                 <div className="icon-footer">
