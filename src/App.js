@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from "react-router-dom";
 
 import AboutUs from "./components/AboutUs/AboutUs";
-import Faq from "./components/"
+import Faq from "./components/Faq"
 import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
