@@ -10,8 +10,8 @@ const Footer = () => {
             <footer className="footer-background">
                 <div className="footer-faq">
                     <ul>
-                        <li><Link to="/AboutUs" >About Us</Link></li>
                         <li><Link to="/faq">FAQ</Link></li>
+                        <li><Link to="/aboutus" >About Us</Link></li>
                     </ul>
                 </div>
                 <div className="icon-footer">
