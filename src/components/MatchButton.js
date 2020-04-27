@@ -6,7 +6,7 @@ function MatchButton (props) {
 
   return (
     <Link to={{
-      pathname:'/MyProfile',
+      pathname:'/Message',
       data:{
         dogName: props.name,
       }
