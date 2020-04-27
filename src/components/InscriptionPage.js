@@ -6,10 +6,6 @@ import LogInInformation from './LogInInformation';
 import Navbar from "./Navbar.js";
 
 import './InscriptionPage.css';
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
 
 class InscriptionPage extends React.Component {
     render(){
