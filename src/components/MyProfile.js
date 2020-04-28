@@ -1,7 +1,9 @@
 import React from "react"
 import Navbar from "../components/Navbar";
 
-const MyProfile = () => {
+const MyProfile = (props) => {
+    
+    
     return(
         <div>
         <Navbar />

@@ -1,11 +1,12 @@
 import React from "react"
 import Navbar from "../components/Navbar";
 
-const Message = () => {
+const Message = (props) => {
     return(
         <div>
         <Navbar />
             <p>JE SUIS SUR MES MESSAGES</p>
+            <p>Tu as WAAF {props.location.data && props.location.data.dogName.name.title} {props.location.data && props.location.data.dogName.name.first}</p> 
         </div>
     )
 }
