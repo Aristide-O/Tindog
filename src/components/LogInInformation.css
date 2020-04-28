@@ -2,9 +2,10 @@
 .blockLogInInformation {
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
     color:#511845;
     font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .block1 {

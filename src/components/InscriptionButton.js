@@ -44,6 +44,4 @@ class InscriptionButton extends React.Component {
     }
 }
 
-
-
 export default InscriptionButton
