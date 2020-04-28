@@ -15,7 +15,7 @@ class LogInInformation extends React.Component {
       pseudo: '',
       email: '',
       password: '',
-      sex: '',
+      gender: '',
       dateOfBirth: new Date(),
       description: '',
       location: '',
@@ -31,8 +31,8 @@ class LogInInformation extends React.Component {
   handleChangePassword = (event) => {
     this.setState({ password: event.target.value });
   }
-  handleChangeSex = (event) => {
-    this.setState({ sex: event.target.value });
+  handleChangeGender = (event) => {
+    this.setState({ gender: event.target.value });
   }
   handleChangeDateOfBirth = (event) => {
     this.setState({ dateOfBirth: event.target.value });
@@ -81,11 +81,12 @@ class LogInInformation extends React.Component {
           </div>
         </div>
         <div className="block2">
-          <label htmlFor="sex">Sex: </label>
+          <label htmlFor="sex">Gender: </label>
           <select value={this.state.value}
-            onChange={this.handleChangeSex}>
+            onChange={this.handleChangeGender}>
             <option value="male">Male</option>
             <option value="female">Female</option>
+            <option value="other">Other</option>
           </select>
           <label htmlFor="dateOfBirth">Date of Birth: </label>
           <DatePicker
@@ -103,11 +104,12 @@ class LogInInformation extends React.Component {
             onChange={this.handleChangeLocation}
           />
         </div>
-        <InscriptionButton pseudo={this.state.pseudo}/>
+        <InscriptionButton pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
       </form>
     )
   }
 }
+
 
 export default LogInInformation
 

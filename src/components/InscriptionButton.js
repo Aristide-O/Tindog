@@ -11,7 +11,10 @@ const InscriptionButton = (props) => {
         <Link to={{
             pathname : "/myprofile",
             data:{
-              pseudo: props.pseudo
+              pseudo: props.pseudo,
+              location: props.location,
+              gender: props.gender,
+              description: props.description
             }
           }}>
               <button className="inscriptionButton" type="send" onClick={(e) =>(window.confirm("Congrats! You are now on Tindog"))}>Sign-up</button>
