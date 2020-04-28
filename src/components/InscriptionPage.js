@@ -8,17 +8,17 @@ import Navbar from "./Navbar.js";
 import './InscriptionPage.css';
 
 class InscriptionPage extends React.Component {
-    render(){
-    return (
-        <div>
-        <Navbar/>
-        <div className="inscriptionPage">
-            <LogInInformation/>
-            <InscriptionButton/>
-        </div>
-        <Footer/>
-        </div>
-)
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <div className="inscriptionPage">
+                    <LogInInformation />
+                    <InscriptionButton />
+                </div>
+                <Footer />
+            </div>
+        )
     }
 }
 

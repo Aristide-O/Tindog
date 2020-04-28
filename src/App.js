@@ -9,7 +9,7 @@ import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
 import MyProfile from "./components/MyProfile";
 
-import GetLocation from './components/GetLocation'
+
 
 import './App.css';
 
