@@ -14,7 +14,7 @@ const MyProfile = (props) => {
         <div className="bg-profile">
             <SideBar right />
             <Navbar />
-            <ProfilePhoto />
+            <img className="photo" src={props.location.data && props.location.data.avatar} />
 
             <div className="profil">
                 <div className="head">
@@ -22,16 +22,16 @@ const MyProfile = (props) => {
                     <div>
                         <div className="pseudoName">
                                 <Indicator />
-                                <p className="p">{props.location.data && props.location.data.pseudo}</p>
+                                <p className="p">{props.location.data && props.location.data.pseudo}LulaKath</p>
                         </div>
 
-                        <p className="location">{props.location.data && props.location.data.location}</p>
+                        <p className="location">{props.location.data && props.location.data.location}Paris</p>
                     </div>
                 </div>
 
                 <div className="myDescription">
                     <h3 className="hProfile">My description</h3>
-                    <p>{props.location.data && props.location.data.description}</p>
+                    <p>{props.location.data && props.location.data.description}"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
                 </div>
                 <div className="myResearch">
                 <h3 className="hProfile">My research</h3>

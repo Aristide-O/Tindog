@@ -1,9 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom"
 
 import DatePicker from 'react-date-picker'
-
-import ProfilePhoto from './ProfilePhoto'
 
 import './LogInInformation.css'
 import InscriptionButton from './InscriptionButton'
@@ -19,7 +16,9 @@ class LogInInformation extends React.Component {
       dateOfBirth: new Date(),
       description: '',
       location: '',
+      profilePhoto: 'https://miro.medium.com/max/560/1*MccriYX-ciBniUzRKAUsAw.png'
     }
+    this.handleChange = this.handleChange.bind(this)
   }
 
   handleChangePseudo = (event) => {
@@ -44,6 +43,12 @@ class LogInInformation extends React.Component {
     this.setState({ location: event.target.value });
   }
 
+  handleChange(event) {
+    this.setState({
+      profilePhoto: URL.createObjectURL(event.target.files[0])
+    })
+  }
+
   //selact date from DatePicker
   onChange = date => this.setState({ date })
 
@@ -52,7 +57,12 @@ class LogInInformation extends React.Component {
       <form className="blockLogInInformation">
         <h1>Create your account</h1>
         <div className="leftblock">
-          <ProfilePhoto />
+
+          <div className="profilePhoto">
+              <img className="photo" src={this.state.profilePhoto}/>
+              <input className="file" type="file" onChange={this.handleChange}/>
+            </div>
+
           <div className="block1">
             <label htmlFor="pseudo">Pseudo: </label>
             <input
@@ -104,7 +114,7 @@ class LogInInformation extends React.Component {
             onChange={this.handleChangeLocation}
           />
         </div>
-        <InscriptionButton pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
+        <InscriptionButton avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
       </form>
     )
   }

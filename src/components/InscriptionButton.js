@@ -12,6 +12,7 @@ const InscriptionButton = (props) => {
             pathname : "/myprofile",
             data:{
               pseudo: props.pseudo,
+              avatar: props.avatar,
               location: props.location,
               gender: props.gender,
               description: props.description

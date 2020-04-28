@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Footer from "./Footer/Footer.js"
-import InscriptionButton from './InscriptionButton';
 import LogInInformation from './LogInInformation';
 import Navbar from "./Navbar.js";
 
