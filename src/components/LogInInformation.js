@@ -3,8 +3,10 @@ import React from 'react'
 import DatePicker from 'react-date-picker'
 
 import ProfilePhoto from './ProfilePhoto'
+import GetLocation from './GetLocation'
 
 import './LogInInformation.css'
+
 
 class LogInInformation extends React.Component {
   constructor(props) {
@@ -94,12 +96,7 @@ class LogInInformation extends React.Component {
           <label htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
           <label htmlFor="location">Location: </label>
-          <input
-            id="location"
-            type="text"
-            value={this.state.location}
-            onChange={this.handleChangeLocation}
-          />
+          <GetLocation/>
         </div>
       </form>
     )

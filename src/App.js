@@ -9,6 +9,8 @@ import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
 import MyProfile from "./components/MyProfile";
 
+import GetLocation from './components/GetLocation'
+
 import './App.css';
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
         <Route path="/inscriptionpage" component={InscriptionPage} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/faq" component={Faq} />
-      </Switch>
+      </Switch> 
     </div>
   );
 }
