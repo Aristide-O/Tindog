@@ -52,6 +52,12 @@ class LogInInformation extends React.Component {
   //selact date from DatePicker
   onChange = date => this.setState({ date })
 
+  saveStateToLocalStorage = () => {
+    localStorage.setItem('state', JSON.stringify(this.state))
+    console.log('savestate', this.state);
+  }
+
+
   render() {
     return (
       <form className="blockLogInInformation">
@@ -114,7 +120,7 @@ class LogInInformation extends React.Component {
             onChange={this.handleChangeLocation}
           />
         </div>
-        <InscriptionButton avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
+        <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
       </form>
     )
   }
