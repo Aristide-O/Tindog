@@ -6,7 +6,7 @@ const Message = (props) => {
         <div>
         <Navbar />
             <p>JE SUIS SUR MES MESSAGES</p>
-            <p>Tu as WAAF {props.location.data.dogName.name.title} {props.location.data.dogName.name.first}</p> 
+            <p>Tu as WAAF {props.location.data && props.location.data.dogName.name.title} {props.location.data && props.location.data.dogName.name.first}</p> 
         </div>
     )
 }
