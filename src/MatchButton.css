@@ -1,14 +1,30 @@
-.img-match {
-  width: 128px;
-  height: 128px;
-  margin-left: 400px;
-}
 
 .button-match {
   width: 128px;
   height: 128px;
   border: none;
   outline-style:none;
-  background: url(./icons-navbar/animal-care.png);
-  background-size: 128px;
+  background: url(./icons-navbar/animal-love.png);
+  background-size: 80px;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .button-match {
+    width: 64px;
+    height: 64px;
+    border: none;
+    outline-style:none;
+    background: url(./icons-navbar/animal-love.png);
+    background-size: 40px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }

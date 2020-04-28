@@ -9,6 +9,7 @@ import SideBar from "./SideBar"
 import './MyProfile.css'
 
 const MyProfile = (props) => {
+    
     return(
         <div className="bg-profile">
             <SideBar right />
