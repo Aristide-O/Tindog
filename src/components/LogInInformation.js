@@ -84,6 +84,7 @@ class LogInInformation extends React.Component {
           <label htmlFor="sex">Sex: </label>
           <select value={this.state.value}
             onChange={this.handleChangeSex}>
+            <option value="select">Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
