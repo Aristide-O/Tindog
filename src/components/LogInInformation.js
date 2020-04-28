@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 import DatePicker from 'react-date-picker'
 
 import ProfilePhoto from './ProfilePhoto'
 
 import './LogInInformation.css'
+import InscriptionButton from './InscriptionButton'
 
 class LogInInformation extends React.Component {
   constructor(props) {
@@ -101,6 +103,7 @@ class LogInInformation extends React.Component {
             onChange={this.handleChangeLocation}
           />
         </div>
+        <InscriptionButton pseudo={this.state.pseudo}/>
       </form>
     )
   }

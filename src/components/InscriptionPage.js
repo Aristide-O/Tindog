@@ -14,7 +14,6 @@ class InscriptionPage extends React.Component {
         <Navbar/>
         <div className="inscriptionPage">
             <LogInInformation/>
-            <InscriptionButton/>
         </div>
         <Footer/>
         </div>

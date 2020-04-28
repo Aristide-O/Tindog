@@ -5,16 +5,21 @@ import {Link} from "react-router-dom";
 import './InscriptionButton.css';
 
 
-class InscriptionButton extends React.Component {
+const InscriptionButton = (props) => {
     
-    render(){
     return (
-        <Link to="MainPage">
-        <button className="inscriptionButton" type="send" onClick={(e) =>(window.confirm("Congrats! You are now on Tindog"))}>Sign-up</button>
-        </Link>
+        <Link to={{
+            pathname : "/myprofile",
+            data:{
+              pseudo: props.pseudo
+            }
+          }}>
+              <button className="inscriptionButton" type="send" onClick={(e) =>(window.confirm("Congrats! You are now on Tindog"))}>Sign-up</button>
+          </Link>
     )
     }
-}
+
+
 
 
 
