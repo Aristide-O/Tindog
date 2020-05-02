@@ -1,20 +1,29 @@
 import React from 'react';
-import { Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom";
 
-import Message from "./components/Message"
+import AboutUs from "./components/AboutUs/AboutUs";
+import Faq from "./components/Faq"
+import FavoriteProfile from "./components/FavoriteProfile";
+import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
-import './App.css'
+import MainPage from './components/MainPage';
+import MyProfile from "./components/MyProfile";
+
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-  
-    <Switch>
-      <Route exact path="/" component={LandingPage} />
-      <Route path="/message" component={Message} />
-    </Switch>
-    
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/mainpage" component={MainPage} />
+        <Route path="/favoriteprofile" component={FavoriteProfile} />
+        <Route path="/myprofile" component={MyProfile} />
+        <Route path="/inscriptionpage" component={InscriptionPage} />
+        <Route path="/aboutus" component={AboutUs} />
+        <Route path="/faq" component={Faq} />
+      </Switch>
     </div>
   );
 }

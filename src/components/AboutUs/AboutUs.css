@@ -1,0 +1,41 @@
+.title-aboutus {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid salmon;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+}
+
+.equipe {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: rgb(56, 56, 56);
+    background-color: seashell;
+}
+
+.member {
+    margin: 1em 8em;
+}
+
+.name-equipe {
+    font-size: 25px;
+}
+
+.team {
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+    background-color: seashell;
+    padding: 1em;
+}
+
+.description {
+    margin: 2em auto;
+    text-align: justify;
+    width: 60%;
+    font-size: 20px;
+}

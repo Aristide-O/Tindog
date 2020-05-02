@@ -2,18 +2,18 @@
 
 .background-card {
     background-color: rgba(231, 231, 231);
-    border-radius: 1%;
+    border-radius: 2%;
     width: 30%;
     padding-bottom: 3%;
     margin: auto;
-    margin-bottom: 8%;
+    margin-bottom: 1%;
     text-align: center;
     margin-top: 5%;
 }
 
 .img-card {
     width: 100%;
-    border-start-start-radius: 2%;
+    border-top-left-radius: 2%;
     border-top-right-radius: 2%;
 }
 

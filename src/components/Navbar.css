@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
 
-nav {
+.Navbar {
   background: #511845;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -15,6 +15,10 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+li {
+  list-style-type: none;
 }
 
 .img-icons-navbar {
@@ -55,7 +59,7 @@ nav {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  nav {
+  .Navbar {
     background: #511845;
     color: white;
     display: flex;
@@ -65,12 +69,6 @@ nav {
 
   .icons-navbar {
     display: none;
-  }
-
-  .img-burger-navbar {
-    width: 32px;
-    height: 32px;
-    display: block;
   }
 
   .name-navbar {

@@ -1,21 +1,20 @@
 import React from 'react';
-import './CardType.css'
-import ConnectionPseudo from './ConnectionPseudo';
-import MatchButton from '../components/MatchButton'
 
-const CardType = () => {
+import ConnectionPseudo from './ConnectionPseudo';
+import ImageCard from './ImageCard';
+
+import './CardType.css'
+
+
+const CardType = (props) => {
     return(
         <div className="background-card">
-                <img className="img-card" src="https://tractive.com/static/images/menu/Tractive-DOG-navigation.jpg" alt="test"></img>
+                <ImageCard className="img-card" image={props.dogData.image}/>
                 <div className="text-total">
-                <ConnectionPseudo />
+                <ConnectionPseudo pseudo={props.dogData.userName}/>
                 <p className="textDescription">Hi ! I am a sweet doggy and i am here to make friends and more if affinities</p>
                 </div>
-                <div>
-                <MatchButton />
-                </div>
             </div>
-
     )
 }
 

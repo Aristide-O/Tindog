@@ -1,14 +1,12 @@
-import React, { Component } from "react";
-import ContactList from "./ContactList"
-import SendMessage from "./SendMessage"
-import "./Contact.css"
+import React from "react"
+import Navbar from "../components/Navbar";
 
 class Message extends Component {
     render(){
         return(
-            <div className="message">
-                <ContactList />
-                <SendMessage />
+            <div>
+            <Navbar />
+            <SendMessage />
             </div>
         )
     }
