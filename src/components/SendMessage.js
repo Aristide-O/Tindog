@@ -1,37 +1,21 @@
-import React from "react";
+import React from 'react'
+import MessageText from './MessageText'
 
 
-class NameForm extends React.Component {
+const TextareaPage = () => {
 
-    constructor(props) {
-      super(props);
-      this.state = {value: ''};
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-  
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      alert('Vous avez un nouveau message !' + this.state.value);
-      event.preventDefault();
-    }
-  
-    render() {
-      return (
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Message : 
-            <textarea type="text" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Envoyez" />
-        </form>
-       
-      );
-    }
-  }
+  return (
+    <div className="input-group">
+      <div className="input-group-prepend">
+        <span className="input-group-text" id="basic-addon">
+          <i className="fas fa-pencil-alt prefix"></i>
+        </span>
+      </div>
+  <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"><MessageText /></textarea>
 
-export default NameForm;
+      <button>Envoyer</button>
+    </div>
+  )
+}
+
+export default TextareaPage;

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import ContactList from "./ContactList"
 import SendMessage from "./SendMessage"
+import "./Contact.css"
 
-class Message extends React.Component {
+class Message extends Component {
     render(){
         return(
             <div className="message">
