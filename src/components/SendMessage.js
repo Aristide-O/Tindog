@@ -1,19 +1,35 @@
-import React from 'react'
-
+import React, { Fragment } from 'react'
+import MessageText from "./MessageText"
+import "./SendMessage.css"
 
 
 const TextareaPage = () => {
 
   return (
-    <div className="input-group">
-      <div className="input-group-prepend">
-        <span className="input-group-text" id="basic-addon">
-          <i className="fas fa-pencil-alt prefix"></i>
-        </span>
-      </div>
-      <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 
-      <button>Envoyer</button>
+    <div className="MessageText">
+
+      <div className="MessageTextLeft">
+        <MessageText />
+      </div>
+      <div className="MessageTextRight">
+        <MessageText />
+      </div>
+      <div className="MessageTextLeft">
+        <MessageText />
+      </div>
+      <div className="MessageTextRight">
+        <MessageText />
+      </div>
+      <div className="MessageTextLeft">
+        <MessageText />
+      </div>
+      <div className="MessageTextRight">
+        <MessageText />
+      </div>
+      <div className="MessageTextLeft">
+        <MessageText />
+      </div>
     </div>
   )
 }
