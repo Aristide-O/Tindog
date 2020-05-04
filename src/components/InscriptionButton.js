@@ -1,16 +1,29 @@
-import React from 'react'
-import './InscriptionButton.css'
+import React from 'react';
+
+import {Link} from "react-router-dom";
+
+import './InscriptionButton.css';
 
 
-class InscriptionButton extends React.Component {
-    render(){
-    return (
-        <button className="inscriptionButton" type="send" onClick={(e) =>(window.confirm("Congrats! You are now on Tindog"))}>Sign-up</button>
+const InscriptionButton = (props) => {
     
-
+    return (
+        <Link to={{
+            pathname : "/myprofile",
+            data:{
+              pseudo: props.pseudo,
+              avatar: props.avatar,
+              location: props.location,
+              gender: props.gender,
+              description: props.description
+            }
+          }}>
+              <button className="inscriptionButton" type="send" onClick={(e) =>(window.confirm("Congrats! You are now on Tindog"))}>Sign-up</button>
+          </Link>
     )
     }
-}
+
+
 
 
 

@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <nav className='Navbar'>
           <div className='tinder-navbar'>
-           <img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo'/>
+           <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo'/></NavLink>
            <p className='name-navbar'>Tindog</p>
           </div>
 
@@ -25,8 +25,8 @@ function Navbar() {
 
          <div>
           <div className='icons-navbar'>
-           <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
-           <a href='' ><img className='img-icons-navbar' src={message} alt='message'/></a>
+           <NavLink activeClassName="active" exact to='/mainpage'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
+           <NavLink activeClassName="active" exact to='/Message'><img className='img-icons-navbar' src={message} alt='message'/></NavLink>
            <NavLink activeClassName="active" to='/favoriteprofile'><img className='img-icons-navbar' src={like} alt='like'/></NavLink>
            <a href='' ><img className='img-icons-navbar' src={map} alt='map'/></a>
            <NavLink activeClassName="active" to='/myprofile'><img className='img-icons-navbar' src={profile} alt='profile'/></NavLink>

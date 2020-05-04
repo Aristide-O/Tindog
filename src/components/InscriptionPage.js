@@ -1,17 +1,25 @@
 import React from 'react';
-import InscriptionButton from './InscriptionButton';
+
+import Footer from "./Footer/Footer.js"
 import LogInInformation from './LogInInformation';
+import Navbar from "./Navbar.js";
+
 import './InscriptionPage.css';
 
 class InscriptionPage extends React.Component {
     render(){
     return (
+        <div>
+        <Navbar/>
         <div className="inscriptionPage">
             <LogInInformation/>
-            <InscriptionButton/>
         </div>
-    )
+        <Footer/>
+        </div>
+)
     }
 }
 
 export default InscriptionPage
+
+

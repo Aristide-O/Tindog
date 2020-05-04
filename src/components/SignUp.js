@@ -7,7 +7,7 @@ class SignUp extends React.Component {
 
     render(){
     return (
-        <Link to ="MainPage">
+        <Link to ="InscriptionPage">
             <button className="SignUp" type="send" onclick="alertmessage">Sign up</button>
         </Link>
     )

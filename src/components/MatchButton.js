@@ -1,12 +1,20 @@
 import React from 'react';
-import match from '../icons-navbar/animal-care.png'
+import { Link } from 'react-router-dom'
 import '../MatchButton.css'
 
-function MatchButton () {
+function MatchButton (props) {
 
   return (
-    <button className="button-match" type="" onclick="">
-    </button>
+    <Link to={{
+      pathname:'/Message',
+      data:{
+        dogName: props.name,
+      }
+    }}>
+      {/* this.props.location.data */}
+      <button className="button-match" >
+      </button>
+    </Link>
 
   )
 }
