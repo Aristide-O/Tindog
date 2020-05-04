@@ -1,5 +1,6 @@
 import React from "react"
 import Contact from "./Contact"
+import SendMessage from "./SendMessage"
 
 const users = [
   {
@@ -30,9 +31,9 @@ const users = [
 ];
 
 
-const ContactList = () =>
+const ContactList = () => 
 
-  <div>
+  <div className="contactList">
     {users.map(user => (<Contact nameavatar={user.name} image={user.avatar} online={user.online} />))}
   </div>
 

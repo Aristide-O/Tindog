@@ -1,0 +1,9 @@
+.Message {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+button {
+    padding: 10px;
+    font-size: 25px;
+}

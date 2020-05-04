@@ -4,13 +4,17 @@ import SendMessage from "./SendMessage"
 import ContactList from "./ContactList"
 import Footer from "./Footer/Footer";
 
+import "./Message.css"
+
 class Message extends Component {
     render() {
         return (
-            <div className="Message">
+            <div>
                 <Navbar />
-                <ContactList />
-                <SendMessage />
+                <div className="Message">
+                    <ContactList />
+                    <SendMessage />
+                </div>
                 <Footer />
             </div>
         )
