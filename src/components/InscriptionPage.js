@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Footer from "./Footer/Footer.js"
-import InscriptionButton from './InscriptionButton';
 import LogInInformation from './LogInInformation';
 import Navbar from "./Navbar.js";
 
@@ -14,7 +13,6 @@ class InscriptionPage extends React.Component {
         <Navbar/>
         <div className="inscriptionPage">
             <LogInInformation/>
-            <InscriptionButton/>
         </div>
         <Footer/>
         </div>
