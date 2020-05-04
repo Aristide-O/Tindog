@@ -15,9 +15,9 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="Contact">
-                <div>
+                
                     <img className="avatar" alt={this.props.nameavatar} src={this.props.image}></img>
-                </div>
+              
                 <div>
                     <div>
                         <h4 className="name">{this.props.nameavatar}</h4>

@@ -1,5 +1,5 @@
 import React from 'react'
-import MessageText from './MessageText'
+
 
 
 const TextareaPage = () => {
@@ -11,7 +11,7 @@ const TextareaPage = () => {
           <i className="fas fa-pencil-alt prefix"></i>
         </span>
       </div>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"><MessageText /></textarea>
+      <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 
       <button>Envoyer</button>
     </div>
