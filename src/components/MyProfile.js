@@ -2,7 +2,6 @@ import React from "react"
 
 import Footer from "./Footer/Footer"
 import Navbar from "../components/Navbar";
-import ProfilePhoto from "./ProfilePhoto";
 import Indicator from './Indicator'
 import SideBar from "./SideBar"
 
@@ -12,9 +11,6 @@ class MyProfile extends React.Component {
     state = {
         user: null
     }
-
-    //  state = localStorage.getItem('state')
-    // console.log('name', JSON.parse(state));
 
     saveStateToLocalStorage = () => {
         localStorage.setItem('state', JSON.stringify(this.state))
@@ -41,7 +37,7 @@ class MyProfile extends React.Component {
             <div className="bg-profile">
                 <SideBar right />
                 <Navbar />
-                <img className="photo" src={this.state.user && this.state.user.avatar} />
+                <img className="photo" src={this.state.user && this.state.user.avatar} alt={this.props.alt}/>
     
                 <div className="profil">
                     <div className="head">

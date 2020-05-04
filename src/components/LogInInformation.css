@@ -46,8 +46,7 @@ input, textarea, select {
     box-shadow: 2px 2px 1px grey;
     flex-grow: 1;
     flex-shrink: 0;
-    height: 40px;
-  
+    height: 40px; 
 }
 
 .react-date-picker__inputGroup {

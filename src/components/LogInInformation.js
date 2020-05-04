@@ -3,6 +3,7 @@ import React from 'react'
 import DatePicker from 'react-date-picker'
 
 import './LogInInformation.css'
+import './ProfilePhoto.css'
 import InscriptionButton from './InscriptionButton'
 
 class LogInInformation extends React.Component {
@@ -52,11 +53,6 @@ class LogInInformation extends React.Component {
   //selact date from DatePicker
   onChange = date => this.setState({ date })
 
-  saveStateToLocalStorage = () => {
-    localStorage.setItem('state', JSON.stringify(this.state))
-    console.log('savestate', this.state);
-  }
-
 
   render() {
     return (
@@ -65,7 +61,7 @@ class LogInInformation extends React.Component {
         <div className="leftblock">
 
           <div className="profilePhoto">
-              <img className="photo" src={this.state.profilePhoto}/>
+              <img className="photo" src={this.state.profilePhoto} alt="user-avatar"/>
               <input className="file" type="file" onChange={this.handleChange}/>
             </div>
 
