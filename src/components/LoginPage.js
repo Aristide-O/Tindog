@@ -1,14 +1,14 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import './LoginPage.css';
+import LoginButton from "./LoginButton"
+import LoginAccess from "./LoginAccess"
 
-const LandingPage = () => {
+const LoginPage=() => {
     return(
         <div className="landing">
-            <SignIn />
-            <Link to="/">
-                <SignUp />
-            </Link>
+            <LoginAccess />
+            <LoginButton />
+            
         </div>
     )
 }
