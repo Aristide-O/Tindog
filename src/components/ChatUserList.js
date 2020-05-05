@@ -12,8 +12,8 @@ const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoib3Jhbmdl
 chatClient.setUser(
   {
     id: 'orange-water-1',
-    name: 'Orange water',
-    image: 'https://getstream.io/random_svg/?id=orange-water-1&name=Orange+water'
+    name: 'Snoop Doggy Dog',
+    image: '/chat-avatar.jpg'
   },
   userToken,
 );
@@ -22,7 +22,7 @@ const filters = { type: 'messaging', members: { $in: ['orange-water-1'] } };
 const sort = { last_message_at: -1 };
 const channels = chatClient.queryChannels(filters, sort);
 
-const ChatUserList = () => (
+const ChatUserList = (props) => (
   <Chat client={chatClient} theme={'messaging light'}>
     <ChannelList
       filters={filters}
