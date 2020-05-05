@@ -7,6 +7,7 @@ import Navbar from "./Navbar.js";
 import './InscriptionPage.css';
 
 class InscriptionPage extends React.Component {
+
     render(){
     return (
         <div>
@@ -16,9 +17,10 @@ class InscriptionPage extends React.Component {
         </div>
         <Footer/>
         </div>
-)
+      )
+
     }
-}
+    }
 
 export default InscriptionPage
 

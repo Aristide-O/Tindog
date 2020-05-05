@@ -2,9 +2,14 @@ import React from 'react'
 
 import DatePicker from 'react-date-picker'
 
+
+import ProfilePhoto from './ProfilePhoto'
+import GetLocation from './GetLocation'
+
 import './LogInInformation.css'
 import './ProfilePhoto.css'
 import InscriptionButton from './InscriptionButton'
+
 
 class LogInInformation extends React.Component {
   constructor(props) {
@@ -96,6 +101,7 @@ class LogInInformation extends React.Component {
           <label htmlFor="sex">Gender: </label>
           <select value={this.state.value}
             onChange={this.handleChangeGender}>
+            <option value="select">Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
@@ -109,12 +115,7 @@ class LogInInformation extends React.Component {
           <label htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
           <label htmlFor="location">Location: </label>
-          <input
-            id="location"
-            type="text"
-            value={this.state.location}
-            onChange={this.handleChangeLocation}
-          />
+          <GetLocation/>
         </div>
         <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
       </form>

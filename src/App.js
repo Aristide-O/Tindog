@@ -9,6 +9,8 @@ import MainPage from './components/MainPage';
 import Message from './components/Message';
 import MyProfile from "./components/MyProfile";
 
+
+
 import './App.css';
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
         <Route path="/inscriptionpage" component={InscriptionPage} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/faq" component={Faq} />
-      </Switch>
+      </Switch> 
     </div>
   );
 }

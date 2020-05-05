@@ -1,6 +1,9 @@
-.inscriptionButton{
+/* mobileFirst */
+
+
+.inscriptionButton, .inscriptionButton-closeModal{
     width: 80px;
-    height: 30px;
+    height: 40px;
     font-size: 20px;
     background-color:#511845;
     border-radius: 5px;
@@ -10,15 +13,96 @@
     font-family: 'Dosis', sans-serif;
     display: flex;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     justify-content: center;
 }
 
+.inscriptionButton-closeModal{
+    width: 120px;
+}
+
+
+
+.modal {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+    bottom: 80px;
+    background-color: white;
+  }
+
+
+.modalHeader{
+    background-color:#511845 ;
+    height: 100px;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+}
+
+.modalBody{
+    padding: 40px;
+    text-align: center;
+    height: 50%;
+    font-size: 28px;
+} 
+
+.modalBody p{
+    padding: 20px;
+}
+
+/* desktop */
+
 @media screen and (min-width: 800px){
-    .inscriptionButton{
+
+.inscriptionButton-block1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7%;
+  
+}    
+.inscriptionButton, .inscriptionButton-closeModal{
         margin-right: 50px;
         width: 100px;
         height: 50px;
         font-size: 28px;
+        justify-self: flex-end;
+        margin-top: 40px;
+        margin-bottom: 40px;
 }
+
+.inscriptionButton-closeModal{
+    margin:auto;
+    width: 160px;
+}
+
+.modal {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    right: 400px;
+    bottom: 200px;
+    background-color: white;
+}
+  
+.modalHeader{
+    background-color:#511845 ;
+    height: 100px;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+}
+
+.modalBody{
+    padding: 40px;
+    text-align: center;
+    height: 50%;
+    font-size: 28px;
+} 
+
+.modalBody p{
+    padding: 20px;
+}    
 }
