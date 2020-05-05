@@ -30,6 +30,9 @@ const TextareaPage = () => {
       <div className="MessageTextLeft">
         <MessageText />
       </div>
+      <div className="MessageTextRight">
+        <MessageText />
+      </div>
     </div>
   )
 }

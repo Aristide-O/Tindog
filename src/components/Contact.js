@@ -27,7 +27,7 @@ class Contact extends React.Component {
                         <span className="status-text" onClick={event => {
                             const newStateOnline = !this.state.online;
                             this.setState({ online: newStateOnline })
-                        }}>{this.state.online ? "En ligne" : "Hors ligne"}</span>
+                        }}>{this.state.online ? "Online" : "Offline"}</span>
                     </div>
                 </div>
             </div>

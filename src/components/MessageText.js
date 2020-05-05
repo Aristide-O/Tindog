@@ -2,7 +2,7 @@ import React from 'react';
 
 const MessageText = () => {
     return (
-        <div className="chatInputWrapper">
+        <div className="MessageTextInput">
         <form>
           <input
             className="form-control"
