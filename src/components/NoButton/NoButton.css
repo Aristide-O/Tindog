@@ -12,6 +12,7 @@
     border-radius: 50%;
   }
 
+
   @media (min-width: 320px) and (max-width: 767px) {
     .noButton {
       width: 64px;

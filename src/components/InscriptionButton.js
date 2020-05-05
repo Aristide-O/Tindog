@@ -1,20 +1,23 @@
 import React from 'react';
 
-
 import { Link } from "react-router-dom";
 import Modal from 'react-modal';
 
 import './InscriptionButton.css';
 
 class InscriptionButton extends React.Component {
-    state = {
+  
+    constructor(props) {
+    super(props);
+    this.state = {
         showModal: false
-    };
+    }
+    }
 
     handleOpenModal = () => {
         this.setState({ showModal: true });
     }
-
+    
     handleCloseModal = () => {
         this.setState({ showModal: false });
     }
@@ -35,7 +38,16 @@ class InscriptionButton extends React.Component {
                         <h3>Congratulations! </h3>
                             <p>You are now on Tindog. Have fun smelling arounf!</p>
                     </div>
-                    <Link to="MainPage">
+                    <Link to={{
+                      pathname : "/myprofile",
+                      data:{
+                      pseudo: props.pseudo,
+                      avatar: props.avatar,
+                      location: props.location,
+                      gender: props.gender,
+                      description: props.description
+                    }
+                  }}>
                     <button className="inscriptionButton-closeModal" onClick={this.handleCloseModal}>Go tindogging</button>
                     </Link>
                 </Modal>
