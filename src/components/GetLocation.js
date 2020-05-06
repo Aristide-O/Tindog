@@ -7,14 +7,17 @@ import './GetLocation.css'
 
 
 class GetLocation extends React.Component {
-    state = {
-        latitude: "",
-        longitude: "",
-        address: "",
-        city: "",
-        region: "",
-        location: "",
+    constructor(props) {
+        super(props)
+        this.state = {
+            latitude: "",
+            longitude: "",
+            address: "",
+            city: "",
+            region: "",
+            location: "",
 
+        }
     }
 
     handleChangeLocation = (event) => {
@@ -38,20 +41,19 @@ class GetLocation extends React.Component {
                     placeholder="Activate your geolocation, type here your address or simply leave it empty"
                     value={this.state.location}
                     onChange={this.handleChangeLocation}
-                    required
                 />
-            ) : 
-            this.props.coords ? 
-            (
-                <div className="getLocation-div1">
-                    <button className="getLocation-locationButton" onClick={this.getAddress}>
-                    </button>
-                    <div className="getLocation-div2">{this.state.address} {this.state.city} {this.state.region}</div>
-                </div>
             ) :
+            this.props.coords ?
+                (
+                    <div className="getLocation-div1">
+                        <button className="getLocation-locationButton" onClick={this.getAddress}>
+                        </button>
+                        <div className="getLocation-div2">{this.state.address} {this.state.city} {this.state.region}</div>
+                    </div>
+                ) :
                 (
                     <div className="getLocation-div3">Getting the location data</div>
-                ) 
+                )
     }
 }
 

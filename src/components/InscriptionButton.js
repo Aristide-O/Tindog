@@ -6,18 +6,18 @@ import Modal from 'react-modal';
 import './InscriptionButton.css';
 
 class InscriptionButton extends React.Component {
-  
+
     constructor(props) {
-    super(props);
-    this.state = {
-        showModal: false
-    }
+        super(props);
+        this.state = {
+            showModal: false
+        }
     }
 
     handleOpenModal = () => {
         this.setState({ showModal: true });
     }
-    
+
     handleCloseModal = () => {
         this.setState({ showModal: false });
     }
@@ -36,19 +36,19 @@ class InscriptionButton extends React.Component {
                     </div>
                     <div className="modalBody">
                         <h3>Congratulations! </h3>
-                            <p>You are now on Tindog. Have fun smelling around!</p>
+                        <p>You are now on Tindog. Have fun smelling around!</p>
                     </div>
                     <Link to={{
-                      pathname : "/myprofile",
-                      data:{
-                      pseudo: this.props.pseudo,
-                      avatar: this.props.avatar,
-                      location: this.props.location,
-                      gender: this.props.gender,
-                      description: this.props.description
-                    }
-                  }}>
-                    <button className="inscriptionButton-closeModal" onClick={this.handleCloseModal}>Go tindogging</button>
+                        pathname: "/myprofile",
+                        data: {
+                            pseudo: this.props.pseudo,
+                            avatar: this.props.avatar,
+                            location: this.props.location,
+                            gender: this.props.gender,
+                            description: this.props.description
+                        }
+                    }}>
+                        <button className="inscriptionButton-closeModal" onClick={this.handleCloseModal}>Go tindogging</button>
                     </Link>
                 </Modal>
             </div>

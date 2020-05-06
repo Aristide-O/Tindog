@@ -66,9 +66,9 @@ class LogInInformation extends React.Component {
         <div className="leftblock">
 
           <div className="profilePhoto">
-              <img className="photo" src={this.state.profilePhoto} alt="user-avatar"/>
-              <input className="file" type="file" onChange={this.handleChange}/>
-            </div>
+            <img className="photo" src={this.state.profilePhoto} alt="user-avatar" />
+            <input className="file" type="file" onChange={this.handleChange} />
+          </div>
 
           <div className="block1">
             <label htmlFor="pseudo">Pseudo: </label>
@@ -99,7 +99,8 @@ class LogInInformation extends React.Component {
         </div>
         <div className="block2">
           <label htmlFor="sex">Gender: </label>
-          <select value={this.state.value}
+          <select
+            value={this.state.value}
             onChange={this.handleChangeGender}>
             <option value="select">Select</option>
             <option value="male">Male</option>
@@ -115,9 +116,9 @@ class LogInInformation extends React.Component {
           <label htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
           <label htmlFor="location">Location: </label>
-          <GetLocation/>
+          <GetLocation />
         </div>
-        <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
+        <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender} />
       </form>
     )
   }
