@@ -2,9 +2,10 @@
 .blockLogInInformation {
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
     color:#511845;
     font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .block1 {
@@ -54,6 +55,15 @@ input, textarea, select {
     flex-grow: 0;
     padding: 0 2px;
     box-sizing: content-box;
+}
+
+.locationButton{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline-style:none;
+    background: url(./pin.png);
+    background-size: 20px;
 }
 
 
