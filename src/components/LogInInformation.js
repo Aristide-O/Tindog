@@ -2,9 +2,14 @@ import React from 'react'
 
 import DatePicker from 'react-date-picker'
 
+
 import ProfilePhoto from './ProfilePhoto'
+import GetLocation from './GetLocation'
 
 import './LogInInformation.css'
+import './ProfilePhoto.css'
+import InscriptionButton from './InscriptionButton'
+
 
 class LogInInformation extends React.Component {
   constructor(props) {
@@ -13,11 +18,13 @@ class LogInInformation extends React.Component {
       pseudo: '',
       email: '',
       password: '',
-      sex: '',
+      gender: '',
       dateOfBirth: new Date(),
       description: '',
       location: '',
+      profilePhoto: 'https://miro.medium.com/max/560/1*MccriYX-ciBniUzRKAUsAw.png'
     }
+    this.handleChange = this.handleChange.bind(this)
   }
 
   handleChangePseudo = (event) => {
@@ -29,8 +36,8 @@ class LogInInformation extends React.Component {
   handleChangePassword = (event) => {
     this.setState({ password: event.target.value });
   }
-  handleChangeSex = (event) => {
-    this.setState({ sex: event.target.value });
+  handleChangeGender = (event) => {
+    this.setState({ gender: event.target.value });
   }
   handleChangeDateOfBirth = (event) => {
     this.setState({ dateOfBirth: event.target.value });
@@ -42,15 +49,27 @@ class LogInInformation extends React.Component {
     this.setState({ location: event.target.value });
   }
 
+  handleChange(event) {
+    this.setState({
+      profilePhoto: URL.createObjectURL(event.target.files[0])
+    })
+  }
+
   //selact date from DatePicker
   onChange = date => this.setState({ date })
+
 
   render() {
     return (
       <form className="blockLogInInformation">
         <h1>Create your account</h1>
         <div className="leftblock">
-          <ProfilePhoto />
+
+          <div className="profilePhoto">
+              <img className="photo" src={this.state.profilePhoto} alt="user-avatar"/>
+              <input className="file" type="file" onChange={this.handleChange}/>
+            </div>
+
           <div className="block1">
             <label htmlFor="pseudo">Pseudo: </label>
             <input
@@ -79,11 +98,13 @@ class LogInInformation extends React.Component {
           </div>
         </div>
         <div className="block2">
-          <label htmlFor="sex">Sex: </label>
+          <label htmlFor="sex">Gender: </label>
           <select value={this.state.value}
-            onChange={this.handleChangeSex}>
+            onChange={this.handleChangeGender}>
+            <option value="select">Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
+            <option value="other">Other</option>
           </select>
           <label htmlFor="dateOfBirth">Date of Birth: </label>
           <DatePicker
@@ -94,17 +115,14 @@ class LogInInformation extends React.Component {
           <label htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
           <label htmlFor="location">Location: </label>
-          <input
-            id="location"
-            type="text"
-            value={this.state.location}
-            onChange={this.handleChangeLocation}
-          />
+          <GetLocation/>
         </div>
+        <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender}/>
       </form>
     )
   }
 }
+
 
 export default LogInInformation
 
