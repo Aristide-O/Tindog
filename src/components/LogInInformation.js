@@ -31,8 +31,10 @@ class LogInInformation extends React.Component {
     this.setState({ pseudo: event.target.value });
   }
   handleChangeEmail = (event) => {
-    this.setState({ email: event.target.value });
-  }
+    this.setState({ email: event.target.value })
+      }
+
+
   handleChangePassword = (event) => {
     this.setState({ password: event.target.value });
   }
@@ -64,12 +66,10 @@ class LogInInformation extends React.Component {
       <form className="blockLogInInformation">
         <h1>Create your account</h1>
         <div className="leftblock">
-
           <div className="profilePhoto">
             <img className="photo" src={this.state.profilePhoto} alt="user-avatar" />
             <input className="file" type="file" onChange={this.handleChange} />
           </div>
-
           <div className="block1">
             <label htmlFor="pseudo">Pseudo: </label>
             <input
@@ -77,7 +77,6 @@ class LogInInformation extends React.Component {
               type="text"
               value={this.state.pseudo}
               onChange={this.handleChangePseudo}
-              required
             />
             <label htmlFor="email">Email address: </label>
             <input
@@ -85,7 +84,6 @@ class LogInInformation extends React.Component {
               type="email"
               value={this.state.email}
               onChange={this.handleChangeEmail}
-              required
             />
             <label htmlFor="password">Password: </label>
             <input
@@ -93,7 +91,6 @@ class LogInInformation extends React.Component {
               type="password"
               value={this.state.password}
               onChange={this.handleChangePassword}
-              required
             />
           </div>
         </div>
@@ -111,7 +108,6 @@ class LogInInformation extends React.Component {
           <DatePicker
             onChange={this.onChange}
             value={this.state.date}
-            required
           />
           <label htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
