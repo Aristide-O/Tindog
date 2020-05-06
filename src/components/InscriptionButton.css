@@ -181,9 +181,9 @@
         display: flex;
     }
     .modalFormBody p{
-        margin: auto; 
-        align-self: center;
-
+        display: flex;
+        justify-content: center;   
+        text-align: center;
     }
 
     .inscriptionButton-closeModal-2{
