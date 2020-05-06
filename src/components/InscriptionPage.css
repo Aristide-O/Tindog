@@ -2,14 +2,14 @@
 
 .inscriptionPage {
     font-family:  'Dosis', sans-serif;
-    background-color: white;  
-    padding: 10px; 
-   
+    background-color: white; 
+    padding-bottom: 20px;   
   }
    
   @media screen and (min-width: 800px) {
     .inscriptionPage {
-      width: 80%;
+      width: 100%;
       margin: auto;
+      padding-bottom: 20px;  
     }
   }
