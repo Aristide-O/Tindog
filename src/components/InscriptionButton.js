@@ -41,11 +41,11 @@ class InscriptionButton extends React.Component {
                     <Link to={{
                       pathname : "/myprofile",
                       data:{
-                      pseudo: props.pseudo,
-                      avatar: props.avatar,
-                      location: props.location,
-                      gender: props.gender,
-                      description: props.description
+                      pseudo: this.props.pseudo,
+                      avatar: this.props.avatar,
+                      location: this.props.location,
+                      gender: this.props.gender,
+                      description: this.props.description
                     }
                   }}>
                     <button className="inscriptionButton-closeModal" onClick={this.handleCloseModal}>Go tindogging</button>
