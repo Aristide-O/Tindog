@@ -1,14 +1,24 @@
-import React from "react"
-import Navbar from "../components/Navbar";
+import React, { Component } from "react"
+import Navbar from "./Navbar";
+import SendMessage from "./SendMessage"
+import ContactList from "./ContactList"
+import Footer from "./Footer/Footer";
 
-const Message = (props) => {
-    return(
-        <div>
-        <Navbar />
-            <p>JE SUIS SUR MES MESSAGES</p>
-            <p>Tu as WAAF {props.location.data && props.location.data.dogName.name.title} {props.location.data && props.location.data.dogName.name.first}</p> 
-        </div>
-    )
+import "./Message.css"
+
+class Message extends Component {
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <div className="Message">
+                    <ContactList />
+                    <SendMessage />
+                </div>
+                <Footer />
+            </div>
+        )
+    }
 }
 
 export default Message;
