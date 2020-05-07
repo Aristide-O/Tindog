@@ -8,7 +8,7 @@ class SignUp extends React.Component {
     render(){
     return (
         <Link to ="InscriptionPage">
-            <button className="SignUp" type="send" onclick="alertmessage">Sign up</button>
+            <button className="SignUp" type="send">Sign up</button>
         </Link>
     )
     }

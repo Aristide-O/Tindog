@@ -6,16 +6,16 @@ import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
-import MyProfile from "./components/MyProfile"; 
-import Message from "./components/Message";
-
-
+import Message from './components/Message';
+import MyProfile from "./components/MyProfile";
+import LoginPage from "./components/LoginPage";
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <LoginPage/>
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/message" component={Message} />
