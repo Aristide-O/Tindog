@@ -32,7 +32,6 @@ class GetLocation extends React.Component {
     }
 
     render() {
-        console.log(this.props.coords)
         return !this.props.isGeolocationEnabled ?
             (
                 <input className="getLocation-div1"
