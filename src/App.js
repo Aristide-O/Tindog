@@ -6,8 +6,8 @@ import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
-import Message from './components/Message';
-import MyProfile from "./components/MyProfile";
+import MyProfile from "./components/MyProfile"; 
+import Message from "./components/Message";
 
 
 
@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={LandingPage} />
+        <Route path="/message" component={Message} />
         <Route path="/mainpage" component={MainPage} />
         <Route path="/Message" component={Message} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
