@@ -7,7 +7,7 @@ class LoginButton extends React.Component {
 
     render(){
     return (
-        <button className="Login" type="send" onClick="alertmessage">Log in</button>
+        <button className="Login" type="send">Log in</button>
     )
     }
 }
