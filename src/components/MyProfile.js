@@ -47,7 +47,6 @@ class MyProfile extends React.Component {
                                     <Indicator />
                                     <p className="p">{this.state.user && this.state.user.pseudo}</p>
                             </div>
-    
                             <p className="location">{this.state.user ? this.state.user.location : 'paris'}</p>
                         </div>
                     </div>
