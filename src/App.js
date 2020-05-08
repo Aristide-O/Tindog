@@ -6,10 +6,9 @@ import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
-import MyProfile from "./components/MyProfile"; 
-import Message from "./components/Message";
-
-
+import Message from './components/Message';
+import MyProfile from "./components/MyProfile";
+import LoginPage from "./components/LoginPage";
 
 import './App.css';
 
@@ -20,10 +19,10 @@ function App() {
         <Route exact path="/" component={LandingPage} />
         <Route path="/message" component={Message} />
         <Route path="/mainpage" component={MainPage} />
-        <Route path="/Message" component={Message} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
         <Route path="/myprofile" component={MyProfile} />
         <Route path="/inscriptionpage" component={InscriptionPage} />
+        <Route path="/loginpage" component={LoginPage}/>
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/faq" component={Faq} />
       </Switch> 
