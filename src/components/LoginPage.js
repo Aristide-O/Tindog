@@ -7,8 +7,7 @@ const LoginPage=() => {
     return(
         <div className="landing">
             <LoginAccess />
-            <LoginButton />
-            
+            <LoginButton />      
         </div>
     )
 }

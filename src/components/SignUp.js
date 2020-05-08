@@ -7,7 +7,7 @@ class SignUp extends React.Component {
 
     render(){
     return (
-        <Link to ="InscriptionPage">
+        <Link to ="/inscriptionPage">
             <button className="SignUp" type="send">Sign up</button>
         </Link>
     )
