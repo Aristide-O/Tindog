@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import Navbar from "./Navbar";
-import SendMessage from "./SendMessage"
 import ContactList from "./ContactList"
 import Footer from "./Footer/Footer";
+import Navbar from "./Navbar";
+import SendMessage from "./SendMessage"
 
 import "./Message.css"
 

@@ -7,12 +7,9 @@ import './InscriptionButton.css';
 
 class InscriptionButton extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
+state = {
             showModal: false
         }
-    }
 
     handleOpenModal = () => {
         this.setState({ showModal: true });
@@ -62,7 +59,6 @@ class InscriptionButton extends React.Component {
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
-
                         <div className="modalFormBody">
                             <h3>Please fill your information</h3>
                             <button className="inscriptionButton-closeModal-2 topright" onClick={this.handleCloseModal}></button>

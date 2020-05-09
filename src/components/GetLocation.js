@@ -5,11 +5,9 @@ import axios from 'axios'
 
 import './GetLocation.css'
 
-
+ 
 class GetLocation extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
+state = {
             latitude: "",
             longitude: "",
             address: "",
@@ -18,7 +16,6 @@ class GetLocation extends React.Component {
             location: "",
 
         }
-    }
 
     handleChangeLocation = (event) => {
         this.setState({ location: event.target.value });
@@ -56,11 +53,10 @@ class GetLocation extends React.Component {
     }
 }
 
+
 export default geolocated({
     positionOptions: {
         enableHighAccuracy: false,
     },
     userDecisionTimeout: 1000,
 })(GetLocation);
-
-// export default GetLocation;
