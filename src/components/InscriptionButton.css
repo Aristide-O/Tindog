@@ -160,12 +160,12 @@
         padding: 20px;
     }  
 
-    .inscriptionButton-modalForm{
+    .iinscriptionButton-modalForm{
         position: absolute;
-        top: 380px;
-        left: 420px;
-        right: 420px;
-        bottom: 380px;
+        top: 200px;
+        left: 400px;
+        right: 400px;
+        bottom: 200px;
         background-color: white; 
     }
 
