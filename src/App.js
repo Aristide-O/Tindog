@@ -8,8 +8,7 @@ import LandingPage from './components/LandingPage';
 import MainPage from './components/MainPage';
 import Message from './components/Message';
 import MyProfile from "./components/MyProfile";
-
-
+import LoginPage from "./components/LoginPage";
 
 import './App.css';
 
@@ -18,11 +17,12 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={LandingPage} />
+        <Route path="/message" component={Message} />
         <Route path="/mainpage" component={MainPage} />
-        <Route path="/Message" component={Message} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
         <Route path="/myprofile" component={MyProfile} />
         <Route path="/inscriptionpage" component={InscriptionPage} />
+        <Route path="/loginpage" component={LoginPage}/>
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/faq" component={Faq} />
       </Switch> 
