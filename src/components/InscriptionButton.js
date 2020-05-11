@@ -26,16 +26,16 @@ state = {
         return this.props.pseudo ?
             (
                 <div className="inscriptionButton-block1">
-                    <button className="inscriptionButton" type="send" onClick={this.handleOpenModal}>Sign-up</button>
+                    <button className="inscriptionButton-signUp" type="send" onClick={this.handleOpenModal}>Sign-up</button>
                     <Modal
-                        className="inscriptionButton-modal"
+                        className="modal-I"
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
-                        <div className="inscriptionButton-modalHeader">
+                        <div className="modalHeader-I">
                             <h2>BauBau!!</h2>
                         </div>
-                        <div className="inscriptionButton-modalBody">
+                        <div className="modalBody-I">
                             <h3>Congratulations! </h3>
                             <p>You are now on Tindog. Have fun smelling around!</p>
                         </div>
@@ -56,19 +56,18 @@ state = {
             )
             : (
                 <div className="inscriptionButton-block1">
-                    <button className="inscriptionButton" type="send" onClick={this.handleOpenModal}>Sign-up</button>
+                    <button className="inscriptionButton-signUp" type="send" onClick={this.handleOpenModal}>Sign-up</button>
                     <Modal
-                        className="inscriptionButton-modalForm"
+                        className="modalForm-I"
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
-                        <div className="inscriptionButton-modalFormBody">
+                        <div className="modalFormBody-I">
                             <h3>Please fill your information</h3>
                             <button className="inscriptionButton-closeModal-2 topright" onClick={this.handleCloseModal}></button>
                         </div>
                     </Modal>
                 </div>
-
             )
     }
 }
