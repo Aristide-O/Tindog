@@ -1,6 +1,8 @@
-.inscriptionButton{
+/* mobileFirst */
+
+.inscriptionButton-signUp, .inscriptionButton-closeModal{
     width: 80px;
-    height: 30px;
+    height: 40px;
     font-size: 20px;
     background-color:#511845;
     border-radius: 5px;
@@ -9,16 +11,308 @@
     color:white;
     font-family: 'Dosis', sans-serif;
     display: flex;
+}
+.inscriptionButton-signUp{
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: center;
 }
 
+.inscriptionButton-closeModal{
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    justify-items: flex-end;
+}
+
+
+
+.modal-I {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+    bottom: 80px;
+    background-color: white;
+  }
+
+
+.modalHeader-I{
+    background-color:#511845 ;
+    height: 100px;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+}
+
+.modalBody-I{
+    padding: 40px;
+    text-align: center;
+    height: 50%;
+    font-size: 28px;
+} 
+
+.modalBody-I p{
+    padding: 20px;
+}
+
+.modalForm-I{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    right: 20px;
+    bottom: 220px;
+    background-color:#511845 ;
+    color: white;
+}
+
+.modalFormBody-I{
+    padding: 40px;
+    text-align: center;
+    height: 50%;
+    font-size: 28px;
+}
+.modalFormBody-I p{
+    margin: auto; 
+    align-self: center;
+}
+
+.inscriptionButton-closeModal-2{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-image: url(./signs.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    }
+
+    .topright {
+    position: absolute;
+    right: 0;
+    top: 0
+    }
+
+
+/* desktop */
+
 @media screen and (min-width: 800px){
-    .inscriptionButton{
-        margin-right: 50px;
-        width: 100px;
-        height: 50px;
+
+    .inscriptionButton-block1{
+        display: flex;
+        flex-direction: row;
+    }    
+    .inscriptionButton-signUp, .inscriptionButton-closeModal{
+            width: 100px;
+            height: 50px;
+            font-size: 28px;
+            justify-self: flex-end;
+            margin-top: 40px;
+            margin-bottom: 40px;
+    }
+    .inscriptionButton-signUp{
+        margin-right: 0px;
+    }
+
+    .inscriptionButton-closeModal{
+        margin:auto;
+        width: 160px;
+    }
+
+    .modal-I {
+        position: absolute;
+        top: 200px;
+        left: 400px;
+        right: 400px;
+        bottom: 200px;
+        background-color: white;
+    }
+    
+    .modalHeader-I{
+        background-color:#511845 ;
+        height: 100px;
+        color: white;
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .modalBody-I{
+        padding: 40px;
+        text-align: center;
+        height: 50%;
         font-size: 28px;
+    } 
+
+    .modalBody-I p{
+        padding: 20px;
+    }  
+
+    .modalForm-I{
+        position: absolute;
+        top: 280px;
+        left: 420px;
+        right: 420px;
+        bottom: 280px;
+        background-color: white; 
+    }
+
+    .modalFormBody-I{
+        background-color:#511845 ;
+        height: 100%;
+        color: white;
+        font-size: 56px;
+        text-size-adjust: auto;
+        text-align: center;
+        display: flex;
+    }
+    .modalFormBody-I p{
+        display: flex;
+        justify-content: center;   
+        text-align: center;
+    }
+
+    .inscriptionButton-closeModal-2{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-image: url(./signs.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+
+    }
+
+    .topright {
+    position: absolute;
+    right: 0;
+    top: 0
+    }
 }
-}
+
+
+@media screen and (min-width: 700px){
+
+    .inscriptionButton-block1{
+        display: flex;
+        flex-direction: row;
+    }    
+    .inscriptionButton-signUp, .inscriptionButton-closeModal{
+            width: 100px;
+            height: 50px;
+            font-size: 28px;
+            justify-self: flex-end;
+            margin-top: 40px;
+            margin-bottom: 40px;
+    }
+    .inscriptionButton-signUp{
+        margin-right: 0px;
+    }
+
+    .inscriptionButton-closeModal{
+        margin:auto;
+        width: 160px;
+    }
+
+    .modal-I {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        right: 200px;
+        bottom: 120px;
+        background-color: white;
+    }
+    
+    .modalHeader-I{
+        background-color:#511845 ;
+        height: 100px;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .modalBody-I{
+        padding: 40px;
+        text-align: center;
+        height: 50%;
+        font-size: 28px;
+    } 
+
+    .modalBody-I p{
+        padding: 20px;
+    }  
+
+    .modalForm-I{
+        position: absolute;
+        top: 220px;
+        left: 200px;
+        right: 200px;
+        bottom: 220px;
+        background-color: white; 
+    }
+
+    .modalFormBody-I{
+        background-color:#511845 ;
+        height: 100%;
+        color: white;
+        font-size: 40px;
+        text-size-adjust: auto;
+        text-align: center;
+        display: flex;
+    }
+    .modalFormBody-I p{
+        display: flex;
+        justify-content: center;   
+        text-align: center;
+    }
+
+    .inscriptionButton-closeModal-2{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-image: url(./signs.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+
+    }
+
+    .topright {
+    position: absolute;
+    right: 0;
+    top: 0
+    }
+
+
+} 

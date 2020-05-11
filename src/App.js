@@ -1,13 +1,16 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
+
 import AboutUs from "./components/AboutUs/AboutUs";
-import Faq from "./components/Faq"
+import Faq from "./components/Faq";
 import FavoriteProfile from "./components/FavoriteProfile";
 import InscriptionPage from './components/InscriptionPage';
 import LandingPage from './components/LandingPage';
+import LoginPage from "./components/LoginPage";
 import MainPage from './components/MainPage';
-import Message from './components/Message';
+import Message from "./components/Message";
 import MyProfile from "./components/MyProfile";
+
 
 import './App.css';
 
@@ -16,14 +19,16 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={LandingPage} />
+        <Route path="/message" component={Message} />
         <Route path="/mainpage" component={MainPage} />
-        <Route path="/Message" component={Message} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
         <Route path="/myprofile" component={MyProfile} />
         <Route path="/inscriptionpage" component={InscriptionPage} />
+        <Route path="/loginpage" component={LoginPage}/>
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/faq" component={Faq} />
-      </Switch>
+        <Route path="/message" component={Message} />
+      </Switch> 
     </div>
   );
 }

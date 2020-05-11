@@ -1,32 +1,44 @@
 
-.blockLogInInformation {
+.blockLogInInformationL {
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
     color:#511845;
     font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 
-.block1 {
+.block1L {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 
-.block2 {
+.block2L {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
 }
 
-label{
+.LogInLabel{
     margin-top: 10px;
     text-align: start;
+    color:#900c3f;
+    display: flex;
+
 }
 
-input, textarea, select {
+.file{
+    border: white;
+    border-radius: 5px;
+    border: 2px solid  #900c3f;
+    border-top : 2px solid  #511845; 
+    color:#511845 ;
+}
+
+.inputL, .textareaL, .selectL {
     border: white;
     border-radius: 5px;
     border: 2px solid  #900c3f;
@@ -46,8 +58,7 @@ input, textarea, select {
     box-shadow: 2px 2px 1px grey;
     flex-grow: 1;
     flex-shrink: 0;
-    height: 40px;
-  
+    height: 40px; 
 }
 
 .react-date-picker__inputGroup {
@@ -57,23 +68,33 @@ input, textarea, select {
     box-sizing: content-box;
 }
 
+.locationButton{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline-style:none;
+    background: url(./pin.png);
+    background-size: 20px;
+}
+
 
 @media screen and (min-width: 800px) {
 
-.blockLogInInformation {
+.blockLogInInformationL{
     font-size: 28px;
     display: flex;
     flex-direction: column;
 }
 
-.leftblock{
+.leftblockL{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.block1{
+.block1L{
     margin-left: 60px;
 }
+
 
 }

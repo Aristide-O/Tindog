@@ -1,0 +1,46 @@
+
+.getLocation-div1 {
+    border-radius: 5px;
+    border: 2px solid  #900c3f;
+    border-top : 2px solid  #511845; 
+    box-shadow: 2px 2px 1px grey;
+    height: 30px;
+    font-family:  'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: white; 
+    display: flex;
+    flex-direction: row; 
+}
+
+.getLocation-locationButton{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline-style:none;
+    background: url(./pin.png);
+    background-size: 20px;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 5px;  
+}
+
+.getLocation-div2{
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 5px; 
+}
+
+.getLocation-div3{
+    border-radius: 5px;
+    border: 2px solid  #900c3f;
+    border-top : 2px solid  #511845; 
+    box-shadow: 2px 2px 1px grey;
+    height: 30px;
+    font-family:  'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: white; 
+    
+}
+
+
+

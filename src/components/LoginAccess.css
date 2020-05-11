@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
+   
+   .blockLoginAccess{ 
+   color: white; 
+   
+   }
+   .LogInAccessLabel{  
+    padding: 12px 400px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;  
+    margin-bottom: -50px;
+   }
+   
+   

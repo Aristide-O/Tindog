@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="icon-footer">
                     <img className="icon-footer-paws" src={paws} alt='logo' />
                 </div>
-                <div>
+                <div className="footer-contact">
                     <ul>
                         <li><a href="https://www.instagram.com/wildcodeschool/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                         <li><a href="https://fr.linkedin.com/school/wild-codes-chool/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>

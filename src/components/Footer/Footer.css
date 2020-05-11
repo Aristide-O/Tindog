@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap");
 
-
 * {
     font-family: 'Dosis', sans-serif;
 }
@@ -10,12 +9,21 @@
     justify-content: space-around;
     background-color: #511845;   
     font-size: 20px;
-
-
 }
 
 .icon-footer {
-    margin-top: 27px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-contact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-faq {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .icon-footer-paws {
@@ -29,10 +37,6 @@ ul, li {
     padding: 0px;
 }
 
-ul {
-    margin-top: 27px;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -41,22 +45,20 @@ a {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-    li {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 0px 0px 0px 0px;
-        
-    }
-
     .icon-footer {
         margin-top: 0em;
+        margin-bottom: 0em;
+    } 
+
+    .footer-contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
+    .footer-faq {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
     .icon-footer-paws {
         display: none;

@@ -1,0 +1,21 @@
+.button-message {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.main-message-area {
+    width: 100%;
+    padding: 5px;
+}
+
+
+.Message {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.Message-Page {
+    display: flex;
+}
+
