@@ -26,13 +26,17 @@ class Message extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
-                <div className="Message">
-                    <ContactList />
-                    <MessageList messages={this.state.messages} />
-                    <MessageForm onMessageSend={this.handleNewMessage} />
-                </div>
-                <Footer />
+             <Navbar />
+             <div className="Message-Page">   
+              <div className="Message">
+               <ContactList />
+              </div>
+              <div>
+                <MessageList messages={this.state.messages} />
+                <MessageForm onMessageSend={this.handleNewMessage} />
+              </div>    
+             </div>
+             <Footer />
             </div>
         )
     }

@@ -20,14 +20,14 @@ class MessageForm extends Component {
   render() {
     return (
       <form className="MessageForm" onSubmit={this.handleFormSubmit}>
-        <div className="input-container">
+        <div className="input-container-message">
           <input
             type="text"
             ref={(node) => (this.input = node)}
             placeholder="Enter your message..."
           />
         </div>
-        <div className="button-container">
+        <div className="button-container-message">
           <button type="submit">
             Send
           </button>

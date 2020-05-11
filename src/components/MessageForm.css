@@ -3,12 +3,12 @@
     background: #ccc;
   }
   
-  .MessageForm .input-container {
+  .MessageForm .input-container-message {
     flex: 1;
     margin: 1px;
   }
   
-  .MessageForm .button-container {
+  .MessageForm .button-container-message {
     flex: 0 0 6em;
     margin: 1px 1px 1px 0;
   }
