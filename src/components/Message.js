@@ -5,9 +5,7 @@ import Footer from "./Footer/Footer";
 import MessageForm from './MessageForm'
 import MessageList from "./MessageList"
 
-
 import "./Message.css"
-
 
 class Message extends React.Component {
     constructor(props) {
