@@ -1,18 +1,39 @@
-import React from "react"
-import Navbar from "../components/Navbar";
+import React, { Component } from "react"
+import Navbar from "./Navbar";
 import ContactList from "./ContactList"
-import SendMessage from "./SendMessage"
+import Footer from "./Footer/Footer";
+import MessageForm from './MessageForm'
+import MessageList from "./MessageList"
+import "./Message.css"
 
 class Message extends React.Component {
-    render(){
-        return(
+    constructor(props) {
+        super(props)
+        this.state = {
+            messages: [],
+        }
+      } 
+
+      handleNewMessage = (text) => {
+        this.setState({
+          messages: [...this.state.messages, { me: true, author: "Me", body: text }],
+        })
+      }
+
+    render() {
+        return (
             <div>
-            <Navbar />
-                Voici mes msgs
-            <div className="message">
-                <ContactList />
-                <SendMessage />
-            </div>
+             <Navbar />
+             <div className="Message-Page">   
+              <div className="Message">
+               <ContactList />
+              </div>
+              <div className="main-message-area">
+                <MessageList messages={this.state.messages} />
+                <MessageForm onMessageSend={this.handleNewMessage} />
+              </div>    
+             </div>
+             <Footer />
             </div>
         )
     }

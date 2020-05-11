@@ -15,9 +15,9 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="Contact">
-                <div>
+                
                     <img className="avatar" alt={this.props.nameavatar} src={this.props.image}></img>
-                </div>
+              
                 <div>
                     <div>
                         <h4 className="name">{this.props.nameavatar}</h4>
@@ -27,7 +27,7 @@ class Contact extends React.Component {
                         <span className="status-text" onClick={event => {
                             const newStateOnline = !this.state.online;
                             this.setState({ online: newStateOnline })
-                        }}>{this.state.online ? "En ligne" : "Hors ligne"}</span>
+                        }}>{this.state.online ? "Online" : "Offline"}</span>
                     </div>
                 </div>
             </div>
