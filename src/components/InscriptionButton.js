@@ -18,8 +18,7 @@ state = {
         this.setState({ showModal: true });
     }
 
-    handleCloseModal = (event) => {
-        event.preventDefault()
+    handleCloseModal = () => {
         this.setState({ showModal: false });
     }
 
