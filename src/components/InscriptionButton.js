@@ -65,7 +65,6 @@ state = {
                         </div>
                     </Modal>
                 </div>
-
             )
     }
 }
