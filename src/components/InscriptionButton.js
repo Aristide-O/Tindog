@@ -5,8 +5,6 @@ import Modal from 'react-modal';
 
 import './InscriptionButton.css';
 
-Modal.setAppElement(document.getElementById('.inscriptionButton-block1'));
-
 class InscriptionButton extends React.Component {
 
 state = {
