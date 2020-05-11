@@ -7,18 +7,17 @@ import './InscriptionButton.css';
 
 class InscriptionButton extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
+state = {
             showModal: false
         }
-    }
 
-    handleOpenModal = () => {
+    handleOpenModal = (event) => {
+        event.preventDefault()
         this.setState({ showModal: true });
     }
 
-    handleCloseModal = () => {
+    handleCloseModal = (event) => {
+        event.preventDefault()
         this.setState({ showModal: false });
     }
 
@@ -28,14 +27,14 @@ class InscriptionButton extends React.Component {
                 <div className="inscriptionButton-block1">
                     <button className="inscriptionButton" type="send" onClick={this.handleOpenModal}>Sign-up</button>
                     <Modal
-                        className="modal"
+                        className="inscriptionButton-modal"
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
-                        <div className="modalHeader">
+                        <div className="inscriptionButton-modalHeader">
                             <h2>BauBau!!</h2>
                         </div>
-                        <div className="modalBody">
+                        <div className="inscriptionButton-modalBody">
                             <h3>Congratulations! </h3>
                             <p>You are now on Tindog. Have fun smelling around!</p>
                         </div>
@@ -58,12 +57,11 @@ class InscriptionButton extends React.Component {
                 <div className="inscriptionButton-block1">
                     <button className="inscriptionButton" type="send" onClick={this.handleOpenModal}>Sign-up</button>
                     <Modal
-                        className="modalForm"
+                        className="inscriptionButton-modalForm"
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
-
-                        <div className="modalFormBody">
+                        <div className="inscriptionButton-modalFormBody">
                             <h3>Please fill your information</h3>
                             <button className="inscriptionButton-closeModal-2 topright" onClick={this.handleCloseModal}></button>
                         </div>

@@ -22,9 +22,9 @@ class LoginAccess extends React.Component {
     render() { 
         return (
             <form classeName="blockLoginAccess"> 
-                <label htmlFor="email">Email </label>
+                <label className="LogInAccessLabel" htmlFor="email">Email </label>
                 <input id="email" type="email" value={this.state.email} onChange={this.handleChangeEmail} required/>
-                <label htmlFor="password">Password </label>
+                <label className="LogInAccessLabel" htmlFor="password">Password </label>
                 <input id="password" type="password" value={this.state.password} onChange={this.handleChangePassword} required/>
             </form>
         )

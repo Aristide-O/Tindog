@@ -26,7 +26,7 @@ function Navbar() {
          <div>
           <div className='icons-navbar'>
            <NavLink activeClassName="active" exact to='/mainpage'><img className='img-icons-navbar' src={home} alt='home'/></NavLink>
-           <NavLink activeClassName="active" exact to='/Message'><img className='img-icons-navbar' src={message} alt='message'/></NavLink>
+           <NavLink activeClassName="active" exact to='/message'><img className='img-icons-navbar' src={message} alt='message'/></NavLink>
            <NavLink activeClassName="active" to='/favoriteprofile'><img className='img-icons-navbar' src={like} alt='like'/></NavLink>
            <a href='' ><img className='img-icons-navbar' src={map} alt='map'/></a>
            <NavLink activeClassName="active" to='/myprofile'><img className='img-icons-navbar' src={profile} alt='profile'/></NavLink>
