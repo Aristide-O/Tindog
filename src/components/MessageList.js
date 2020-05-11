@@ -12,9 +12,9 @@ class MessageList extends React.Component {
     messages: [],
   }
 
-  componentDidUpdate = () => {
-    this.node.scrollTop = this.node.scrollHeight
-  }
+//   componentDidUpdate = () => {
+//     this.node.scrollTop = this.node.scrollHeight
+//   }
 
  render() {
     return (
