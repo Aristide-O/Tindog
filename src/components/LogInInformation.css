@@ -22,9 +22,10 @@
     justify-content: center;
 }
 
-label{
+.loginInformation-label{
     margin-top: 10px;
     text-align: start;
+    color: black;
 }
 
 input, textarea, select {

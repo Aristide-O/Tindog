@@ -71,21 +71,21 @@ class LogInInformation extends React.Component {
             <input className="file" type="file" onChange={this.handleChange} />
           </div>
           <div className="block1">
-            <label htmlFor="pseudo">Pseudo: </label>
+            <label className="loginInformation-label" htmlFor="pseudo">Pseudo: </label>
             <input
               id="pseudo"
               type="text"
               value={this.state.pseudo}
               onChange={this.handleChangePseudo}
             />
-            <label htmlFor="email">Email address: </label>
+            <label className="loginInformation-label" htmlFor="email">Email address: </label>
             <input
               id="email"
               type="email"
               value={this.state.email}
               onChange={this.handleChangeEmail}
             />
-            <label htmlFor="password">Password: </label>
+            <label className="loginInformation-label" htmlFor="password">Password: </label>
             <input
               id="password"
               type="password"
@@ -95,7 +95,7 @@ class LogInInformation extends React.Component {
           </div>
         </div>
         <div className="block2">
-          <label htmlFor="sex">Gender: </label>
+          <label className="loginInformation-label" htmlFor="sex">Gender: </label>
           <select
             value={this.state.value}
             onChange={this.handleChangeGender}>
@@ -104,14 +104,14 @@ class LogInInformation extends React.Component {
             <option value="female">Female</option>
             <option value="other">Other</option>
           </select>
-          <label htmlFor="dateOfBirth">Date of Birth: </label>
+          <label className="loginInformation-label" htmlFor="dateOfBirth">Date of Birth: </label>
           <DatePicker
             onChange={this.onChange}
             value={this.state.date}
           />
-          <label htmlFor="description">Description:</label>
+          <label className="loginInformation-label" htmlFor="description">Description:</label>
           <textarea value={this.state.description} onChange={this.handleChangeDescription} />
-          <label htmlFor="location">Location: </label>
+          <label className="loginInformation-label" htmlFor="location">Location: </label>
           <GetLocation />
         </div>
         <InscriptionButton onClick={() => this.saveStateToLocalStorage} avatar={this.state.profilePhoto} pseudo={this.state.pseudo} location={this.state.location} description={this.state.description} gender={this.state.gender} />

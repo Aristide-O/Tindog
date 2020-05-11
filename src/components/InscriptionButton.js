@@ -5,6 +5,8 @@ import Modal from 'react-modal';
 
 import './InscriptionButton.css';
 
+Modal.setAppElement(document.getElementById('.inscriptionButton-block1'));
+
 class InscriptionButton extends React.Component {
 
     constructor(props) {
@@ -14,7 +16,8 @@ class InscriptionButton extends React.Component {
         }
     }
 
-    handleOpenModal = () => {
+    handleOpenModal = (event) => {
+        event.preventDefault()
         this.setState({ showModal: true });
     }
 
@@ -28,7 +31,7 @@ class InscriptionButton extends React.Component {
                 <div className="inscriptionButton-block1">
                     <button className="inscriptionButton" type="send" onClick={this.handleOpenModal}>Sign-up</button>
                     <Modal
-                        className="modal"
+                        className="inscriptionButton-modal"
                         isOpen={this.state.showModal}
                         contentLabel="Minimal Modal Example"
                     >
