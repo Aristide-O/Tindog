@@ -31,7 +31,7 @@ class Message extends React.Component {
               <div className="Message">
                <ContactList />
               </div>
-              <div>
+              <div className="main-message-area">
                 <MessageList messages={this.state.messages} />
                 <MessageForm onMessageSend={this.handleNewMessage} />
               </div>    
