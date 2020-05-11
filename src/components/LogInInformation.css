@@ -1,5 +1,5 @@
 
-.blockLogInInformation {
+.blockLogInInformationL {
     display: flex;
     flex-direction: column;
     color:#511845;
@@ -8,23 +8,26 @@
     margin: auto;
 }
 
-.block1 {
+.block1L {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 
-.block2 {
+.block2L {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
 }
 
-label{
+.LogIningoLabel{
     margin-top: 10px;
     text-align: start;
+    color:#900c3f;
+    display: flex;
+
 }
 
 input, textarea, select {
@@ -69,19 +72,19 @@ input, textarea, select {
 
 @media screen and (min-width: 800px) {
 
-.blockLogInInformation {
+.blockLogInInformationL{
     font-size: 28px;
     display: flex;
     flex-direction: column;
 }
 
-.leftblock{
+.leftblockL{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.block1{
+.block1L{
     margin-left: 60px;
 }
 

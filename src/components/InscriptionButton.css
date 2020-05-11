@@ -31,7 +31,7 @@
 
 
 
-.modal {
+.inscriptionButton-modal {
     position: absolute;
     top: 80px;
     left: 20px;
@@ -41,7 +41,7 @@
   }
 
 
-.modalHeader{
+.inscriptionButton-modalHeader{
     background-color:#511845 ;
     height: 100px;
     color: white;
@@ -49,18 +49,18 @@
     text-align: center;
 }
 
-.modalBody{
+.inscriptionButton-modalBody{
     padding: 40px;
     text-align: center;
     height: 50%;
     font-size: 28px;
 } 
 
-.modalBody p{
+.inscriptionButton-modalBody p{
     padding: 20px;
 }
 
-.modalForm{
+.inscriptionButton-modalForm{
     position: absolute;
     top: 220px;
     left: 20px;
@@ -70,13 +70,13 @@
     color: white;
 }
 
-.modalFormBody{
+.inscriptionButton-modalFormBody{
     padding: 40px;
     text-align: center;
     height: 50%;
     font-size: 28px;
 }
-.modalFormBody p{
+.inscriptionButton-modalFormBody p{
     margin: auto; 
     align-self: center;
 }
@@ -132,7 +132,7 @@
         width: 160px;
     }
 
-    .modal {
+    .inscriptionButton-modal {
         position: absolute;
         top: 200px;
         left: 400px;
@@ -141,7 +141,7 @@
         background-color: white;
     }
     
-    .modalHeader{
+    .inscriptionButton-modalHeader{
         background-color:#511845 ;
         height: 100px;
         color: white;
@@ -149,18 +149,18 @@
         text-align: center;
     }
 
-    .modalBody{
+    .inscriptionButton-modalBody{
         padding: 40px;
         text-align: center;
         height: 50%;
         font-size: 28px;
     } 
 
-    .modalBody p{
+    .inscriptionButton-modalBody p{
         padding: 20px;
     }  
 
-    .modalForm{
+    .inscriptionButton-modalForm{
         position: absolute;
         top: 380px;
         left: 420px;
@@ -169,7 +169,7 @@
         background-color: white; 
     }
 
-    .modalFormBody{
+    .inscriptionButton-modalFormBody{
         background-color:#511845 ;
         height: 100%;
         color: white;
@@ -177,7 +177,7 @@
         text-align: center;
         display: flex;
     }
-    .modalFormBody p{
+    .inscriptionButton-modalFormBody p{
         display: flex;
         justify-content: center;   
         text-align: center;
