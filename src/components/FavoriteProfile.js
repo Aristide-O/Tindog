@@ -5,7 +5,6 @@ import FavCard from "./FavCard";
 const fakeCard = []
 
 const FavoriteProfile = (props) => {
-    console.log(props.location.data && props.location.data);
     const data = props.location.data 
     return(
         <div>
