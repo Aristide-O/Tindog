@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import UserMessage from './UserMessage'
 import './MessageList.css'
