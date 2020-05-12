@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
    
-   .blockLoginAccess{ 
+.form-loginAcces { 
    color: white; 
-   
+   margin-top: 160px;
    }
-   .LogInAccessLabel{  
+   .label-loginAcces {  
     padding: 12px 400px;
     margin: 8px 0;
     display: inline-block;
