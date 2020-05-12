@@ -14,7 +14,7 @@ class MyProfile extends React.Component {
 
     saveStateToLocalStorage = () => {
         localStorage.setItem('state', JSON.stringify(this.state))
-        console.log('savestate', this.state.user);
+        // console.log('savestate', this.state.user);
       }
 
       componentDidMount(){
@@ -25,7 +25,7 @@ class MyProfile extends React.Component {
           } else {
               
               const localState = JSON.parse( localStorage.getItem('state'))
-              console.log('coucou', localState);
+            //   console.log('coucou', localState);
             this.setState({ user : localState.user})
           }
       }
