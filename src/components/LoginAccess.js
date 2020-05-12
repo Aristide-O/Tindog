@@ -6,7 +6,12 @@ import './LoginAccess.css'
 class LoginAccess extends React.Component {
     constructor(props) {
       super(props)
-         this.state = {email: '', password:''}
+         this.state = {
+          email: '',
+          password:''
+        
+        }
+         
            
     
     }
@@ -18,10 +23,15 @@ class LoginAccess extends React.Component {
         this.setState({ password: event.target.value });
       }
 
+      onSubmit = e => {
+        e.preventDefault();
+    }
+
 
     render() { 
         return (
-            <form className="formloginAccess"> 
+            <form className="formloginAccess" onSubmit={this.onSubmit}
+            noValidate > 
              <div classname="labelloginAccess">
               <label className="labelloginAccess" htmlFor="email">Email </label>
               <input className="input-loginAccess" id="email" type="email" value={this.state.email} onChange={this.handleChangeEmail} required/>
