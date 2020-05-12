@@ -21,11 +21,17 @@ class LoginAccess extends React.Component {
 
     render() { 
         return (
-            <form classeName="blockLoginAccess"> 
-                <label className="LogInAccessLabel" htmlFor="email">Email </label>
-                <input id="email" type="email" value={this.state.email} onChange={this.handleChangeEmail} required/>
-                <label className="LogInAccessLabel" htmlFor="password">Password </label>
-                <input id="password" type="password" value={this.state.password} onChange={this.handleChangePassword} required/>
+            <form className="formloginAccess"> 
+            <div classname="labelloginAccess">
+            <label className="labelloginAccess" htmlFor="email">Email </label>
+                <input className="input-loginAccess" id="email" type="email" value={this.state.email} onChange={this.handleChangeEmail} required/>
+                <label className="labelloginAccess" htmlFor="password">Password </label>
+                <input className="input-loginAccess" id="password" type="password" value={this.state.password} onChange={this.handleChangePassword} required/>
+            </div>
+            <div>
+              
+            </div>
+                
             </form>
         )
     }
