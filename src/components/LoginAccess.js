@@ -1,5 +1,6 @@
 import React from 'react'
 import './LoginAccess.css'
+import LoginButton from './LoginButton'
 
 
 
@@ -38,6 +39,7 @@ class LoginAccess extends React.Component {
               <label className="labelloginAccess" htmlFor="password">Password </label>
               <input className="input-loginAccess" id="password" type="password" value={this.state.password} onChange={this.handleChangePassword} required/>
              </div>
+             <LoginButton email={this.state.email}/>
             </form>
         )
     }
