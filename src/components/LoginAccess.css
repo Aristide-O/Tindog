@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
+
  
-
-
 
 .App .formloginAccess  {
    color: white;
    margin-top: 160px;
+   font-family:  'Dosis', sans-serif;
 }
 
 .labelloginAccess {
@@ -25,5 +25,6 @@
    box-shadow: 2px 2px 1px;
    outline: none;
 }
+
    
    
