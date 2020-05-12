@@ -1,15 +1,20 @@
 import React from "react"
 import Navbar from "../components/Navbar";
+import FavCard from "./FavCard";
 
-const FavoriteProfile = () => {
+const fakeCard = []
+
+const FavoriteProfile = (props) => {
+    console.log(props.location.data && props.location.data);
+    const data = props.location.data 
     return(
         <div>
         <Navbar />
-            <p>
-                Voici mes profil favoris
-            </p>
+            <h1>Retrouve ici tes profils favoris !</h1>
+            <div>
+                <FavCard image={data && data.dogImage.url} name={data && data.dogName.name.first}/>
+            </div>
         </div>
     )
 }
-
 export default FavoriteProfile
