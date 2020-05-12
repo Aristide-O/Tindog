@@ -1,9 +1,10 @@
-import React, { Component } from "react"
-import Navbar from "./Navbar";
+import React from "react"
 import ContactList from "./ContactList"
 import Footer from "./Footer/Footer";
 import MessageForm from './MessageForm'
 import MessageList from "./MessageList"
+import Navbar from "./Navbar";
+import SideBar from "./SideBar"
 import "./Message.css"
 
 class Message extends React.Component {
@@ -23,6 +24,7 @@ class Message extends React.Component {
     render() {
         return (
             <div>
+              <SideBar right/>
              <Navbar />
              <div className="Message-Page">   
               <div className="Message">

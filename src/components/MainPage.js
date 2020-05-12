@@ -44,7 +44,7 @@ class MainPage extends React.Component {
     render() {
         return (
             <div className='Mainpage'>
-                <SideBar />
+                <SideBar right/>
                 <Navbar />
                 <CardType dogData={this.state}/>
                 <NoButton fetch={()=>this.fetchData()}/>

@@ -2,8 +2,6 @@ import React from 'react'
 
 import DatePicker from 'react-date-picker'
 
-
-import ProfilePhoto from './ProfilePhoto'
 import GetLocation from './GetLocation'
 
 import './LogInInformation.css'
