@@ -13,8 +13,8 @@
     display: flex;
 }
 .inscriptionButton-signUp{
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 25px auto;
+    margin-top: 35px;
     justify-content: center;
 }
 
