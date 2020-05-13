@@ -3,21 +3,19 @@ import { Link } from 'react-router-dom'
 import '../MatchButton.css'
 
 function MatchButton (props) {
-
   return (
     <Link to={{
-      pathname:'/Message',
+      pathname:'/FavoriteProfile',
       data:{
         dogName: props.name,
+        dogImage: props.image,
       }
     }}>
-      {/* this.props.location.data */}
       <button className="button-match" >
       </button>
     </Link>
 
-  )
+)
 }
-
 
 export default MatchButton;
