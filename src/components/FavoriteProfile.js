@@ -67,6 +67,7 @@ class FavoriteProfile extends React.Component {
         const data = this.props.location.data
         return(
             <div>
+                <SideBar right />
             <Navbar />
                 <h1 className="title-fav">Retrouve ici tes profils favoris !</h1>
                 <div>
