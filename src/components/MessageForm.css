@@ -1,6 +1,8 @@
 .MessageForm {
     display: flex;
     background: #ccc;
+    width: 90%;
+    margin-left: 10%;
   }
   
   .MessageForm .input-container-message {
@@ -23,7 +25,36 @@
     outline: none;
     width: 100%;
   }
-  
+  .MessageForm button {
+    box-sizing: border-box;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    background-color:#511845;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
+    border: white;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+}
   .MessageForm input {
     padding: 0 0 0 4px;
   }
+
+  @media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .MessageForm {
+      width: 85%;
+      margin-left: 15%;
+  }
+  }
+  @media screen and (max-width:767px) {
+   .MessageForm {
+      width: 91%;
+      margin-left: 9%;
+  }
+}
