@@ -44,11 +44,11 @@ class MainPage extends React.Component {
     render() {
         return (
             <div className='Mainpage'>
-                <SideBar />
+                <SideBar right/>
                 <Navbar />
                 <CardType dogData={this.state}/>
                 <NoButton fetch={()=>this.fetchData()}/>
-                <MatchButton name={this.state.userName}/>
+                <MatchButton name={this.state.userName} image={this.state.image}/>
                 <Footer />
             </div>
         )

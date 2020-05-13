@@ -1,8 +1,5 @@
 import React from "react"
 import Contact from "./Contact"
-import SendMessage from "./SendMessage"
-import './ContactList.css'
-
 
 const users = [
   {
