@@ -11,6 +11,7 @@ import MainPage from './components/MainPage';
 import Message from "./components/Message";
 import MyProfile from "./components/MyProfile";
 
+
 import './App.css';
 
 function App() {

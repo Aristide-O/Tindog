@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "../components/Navbar";
 import FavCard from "./FavCard";
-
+import SideBar from "./SideBar"
 
 const fakeCard = [
     {
