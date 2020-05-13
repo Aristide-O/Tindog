@@ -1,59 +1,59 @@
 .MessageForm {
-    display: flex;
-    background: #ccc;
-  }
-  
-  .MessageForm .input-container-message {
-    flex: 1;
-    margin: 1px;
-  }
-  
-  .MessageForm .button-container-message {
-    flex: 0 0 6em;
-    margin: 1px 1px 1px 0;
-  }
-  
-  .MessageForm input, .MessageForm button {
-    background: #fff;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-size: inherit;
-    height: 100%;
-    outline: none;
-    width: 100%;
-  }
-  .MessageForm button {
-    box-sizing: border-box;
-    font-size: inherit;
-    height: 100%;
-    outline: none;
-    width: 100%;
-    font-size: 20px;
-    background-color:#511845;
-    border-radius: 5px;
-    box-shadow: 2px 2px 1px grey;
-    border: white;
-    color:white;
-    font-family: 'Dosis', sans-serif;
+  display: flex;
+  background: #ccc;
+  width: 93%;
+  margin-left: 7%;
 }
-  .MessageForm input {
-    padding: 0 0 0 4px;
-  }
 
-  @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .MessageForm {
-      width: 90%;
-      margin-left: 10%;
-  }
-  }
+.MessageForm .input-container-message {
+  flex: 1;
+  margin: 1px;
+}
 
-  @media screen and (max-width:767px) {
-   .MessageForm {
-      width: 91%;
-      margin-left: 9%;
-  }
+.MessageForm .button-container-message {
+  flex: 0 0 6em;
+  margin: 1px 1px 1px 0;
+}
+
+.MessageForm input, .MessageForm button {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  width: 100%;
+}
+.MessageForm button {
+  box-sizing: border-box;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  width: 100%;
+  font-size: 20px;
+  background-color:#511845;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px grey;
+  border: white;
+  color:white;
+  font-family: 'Dosis', sans-serif;
+}
+.MessageForm input {
+  padding: 0 0 0 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .MessageForm {
+    width: 90%;
+    margin-left: 10%;
+}
+}
+
+@media screen and (max-width:767px) {
+ .MessageForm {
+    width: 91%;
+    margin-left: 9%;
+}
 }
