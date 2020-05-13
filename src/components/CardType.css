@@ -42,9 +42,10 @@
     margin-top: -2.2em;
 }
 
-.button-unfav:hover {
+/* .button-unfav:hover {
     background-color: snow;
-}
+    transition: ;
+} */
 
 .title-fav{
     white-space: nowrap;
