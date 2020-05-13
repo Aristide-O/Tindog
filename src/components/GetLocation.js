@@ -17,10 +17,26 @@ state = {
 
         }
 
+    storeLocation = () => {
+        // {this.saveStateToLocalStorage}
+        //  location={this.state.location} 
+
+         for (let key in this.state) {
+            // save to localStorage
+            localStorage.setItem(key, JSON.stringify(this.state[key]));
+          }
+        
+        
+    }    
+
     handleChangeLocation = (event) => {
         this.setState({ location: event.target.value });
     }
 
+    handleCangeAndStoreLocation = () => {
+        this.handleChangeLocation()
+        this.storeLocation()
+    }  
 
     getAddress = () => {
         axios
@@ -36,7 +52,7 @@ state = {
                     type="location"
                     placeholder="Activate your geolocation, type here your address or simply leave it empty"
                     value={this.state.location}
-                    onChange={this.handleChangeLocation}
+                    onChange={this.handleCangeAndStoreLocation}
                 />
             ) :
             this.props.coords ?
