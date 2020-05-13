@@ -58,7 +58,7 @@ class FavoriteProfile extends React.Component {
 
     delete = (e) => {
         const newState = this.state.favorite
-        const index = newState.findIndex(fav => fav.id == e.target.id)
+        const index = newState.findIndex(fav => fav.id === parseInt(e.target.id))
         newState.splice(index, 1)
         this.setState({ favorite: newState })
     }
@@ -74,10 +74,24 @@ class FavoriteProfile extends React.Component {
                     { this.state.favorite.map((doggy, i) => 
                     <div>
                         <FavCard key={i} image={doggy.image} name={doggy.name}/>
-                        <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" alt="étoile de favoris" title="Supprimer des favoris" id={doggy.id} onClick={this.delete} className="button-unfav"></img>
+                        <img 
+                            src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" 
+                            alt="étoile de favoris" 
+                            title="Supprimer des favoris" 
+                            id={doggy.id} 
+                            onClick={this.delete} 
+                            className="button-unfav">
+                        </img>
                     </div>
                     )}
                     <FavCard image={data && data.dogImage.url} name={data && data.dogName.name.first}/>
+                    <img 
+                        src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" 
+                        alt="étoile de favoris" 
+                        title="Supprimer des favoris" 
+                        onClick={this.delete} 
+                        className="button-unfav">
+                    </img>
                 </div>
             </div>
         )
