@@ -11,6 +11,16 @@
   width: 100%;
 }
 
+.NavbarLoginPage {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+}
+
 .icons-navbar {
   display: flex;
   flex-direction: row;
@@ -82,5 +92,6 @@ li {
     padding: 3px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-right: 45px;
   }
 }
