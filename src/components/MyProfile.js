@@ -57,7 +57,7 @@ class MyProfile extends React.Component {
                     </div>
                     <div className="myResearch">
                     <h3 className="hProfile">My research</h3>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        <p>I’m here to meet some other friends with whom i could run and have fun. Also if I can find love because I’m feeling lonely and I got so much energy.</p>
                     </div>
                 </div>
                 <Footer />
