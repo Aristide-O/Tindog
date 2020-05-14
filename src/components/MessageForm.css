@@ -53,7 +53,7 @@
 
 @media screen and (max-width:767px) {
  .MessageForm {
-    width: 91%;
-    margin-left: 9%;
+  width: 90%;
+  margin-left: 11%;
 }
 }

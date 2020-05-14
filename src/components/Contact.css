@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  height: 17vh;
+  height: 208px;
 
 }
 
@@ -53,7 +53,7 @@
 {
   .Contact {
     width: 126%;
-    height: 17vh;
+    height: 201px;
   }
   
   /* Contact image */
@@ -94,7 +94,7 @@
   
   .Contact{
   width: 110%;
-  height: 16vh;
+  height: 134px;
 }
 }
 
@@ -108,7 +108,7 @@
   align-items: center;
   font-size: 20px;
   justify-content: center;
-  height: 15vh;
+  height: 6rem;
 }
 
   

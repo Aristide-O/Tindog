@@ -58,14 +58,21 @@ li {
   margin-bottom: 0;
 }
 
-.name-navbar-hidden {
-  display: none;
-}
-
 .tinder-navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.name-navbar-hidden-inscriptionPage {
+  font-size: 30px;
+}
+
+.name-navbar-hidden-loginPage {
+  font-size: 30px;
+}
+
+.name-navbar-hidden {
+  font-size: 30px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -93,5 +100,17 @@ li {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 45px;
+  }
+  .p-navbarInscriptionPage {
+    margin-left: 100px;
+  }
+  .p-navbarLoginPage {
+    margin-left: 100px;
+  }
+  .name-navbar-hidden-inscriptionPage {
+    font-size: 20px;
+  }
+  .name-navbar-hidden-loginPage {
+    font-size: 20px;
   }
 }
