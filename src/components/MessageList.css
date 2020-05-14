@@ -4,9 +4,9 @@
   background-color: white;
   box-sizing: border-box;
   flex: 1;
-  height: 26rem;
   width: 93%;
   margin-left: 7%;
+  height: 96vh;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -14,13 +14,24 @@
 .MessageList {
   width: 90%;
   margin-left: 10%;
+  height: 96vh;
 }
+}
+
+@media only screen and (max-width: 1023px) {
+  
+  .MessageList {
+    width: 90%;
+    margin-left: 10%;
+    height: 96vh;
+  }
 }
 
 @media screen and (max-width:767px) {
   .MessageList {
     width: 91%;
     margin-left: 9%;
+    height: 95vh;
 }
 
 }
