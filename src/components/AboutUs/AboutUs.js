@@ -47,7 +47,7 @@ const AboutUs = () => {
             <SideBar right/>
             <Navbar />
             <h1 className="title-aboutus">About Us</h1>
-            <h2 className="team">Member's team</h2>
+            <h2 className="team">Team Members</h2>
             <div className="equipe">
                 {members.map((member, index) =>
                     <MembreType key={index} image={member.image.url} name={member.name} alt={member.alt} />
