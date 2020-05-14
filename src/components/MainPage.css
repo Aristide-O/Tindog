@@ -1,11 +1,38 @@
 .Mainpage{
-    height: 91vh;
-   
+    height: 91vh; 
+}
+
+.Page-Mainpage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 95px;
 }
 .Mainpage-card{
-    position: absolute;
-    top: 50%;
-   
-    text-align: center;
-    object-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.Btn-Mainpage{
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (min-width:1000px) {
+.Btn-Mainpage{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Page-Mainpage{
+    margin-top: 70px;
+}
+
 }
