@@ -22,10 +22,6 @@ function Navbar() {
             </div>
 
             <div>
-                <p className='name-navbar-hidden'>Tindog</p>
-            </div>
-
-            <div>
                 <div className='icons-navbar'>
                     <NavLink activeClassName="active" exact to='/mainpage'><img className='img-icons-navbar' src={home} alt='home' /></NavLink>
                     <NavLink activeClassName="active" exact to='/message'><img className='img-icons-navbar' src={message} alt='message' /></NavLink>
