@@ -9,6 +9,16 @@
   margin-left: 7%;
 }
 
+.msg-send {
+  display: inline-block;
+  background-color: rgb(73, 73, 73);
+  padding: 0.5em 0.8em;
+  color: snow;
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
 @media only screen and (max-width: 1024px) {
 
 .MessageList {
