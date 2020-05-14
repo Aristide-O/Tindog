@@ -1,16 +1,11 @@
-.landing {
+.landingPage {
     background-image: url('./Tindog-Transparent_all.png');
     background-repeat: no-repeat;
-    padding-top: 200px;
     background-position: top;
-    height: 536px;
+    height: 100vh;
   }
   
-  .button {
-    margin-top: 380px;
-    margin-bottom: 60px;
-    text-align: center;
-  }
+  
   
   @media (min-width: 320px) and (max-width: 767px) {
   

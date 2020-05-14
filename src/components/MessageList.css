@@ -4,9 +4,19 @@
   background-color: white;
   box-sizing: border-box;
   flex: 1;
-  height: 26rem;
   width: 93%;
   margin-left: 7%;
+  height: 75rem;
+}
+
+.msg-send {
+  display: inline-block;
+  background-color: rgb(73, 73, 73);
+  padding: 0.5em 0.8em;
+  color: snow;
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -14,13 +24,24 @@
 .MessageList {
   width: 90%;
   margin-left: 10%;
+  height: 73rem;
 }
+}
+
+@media only screen and (max-width: 1023px) {
+  
+  .MessageList {
+    width: 90%;
+    margin-left: 10%;
+    height: 52rem;
+  }
 }
 
 @media screen and (max-width:767px) {
   .MessageList {
-    width: 91%;
-    margin-left: 9%;
+    width: 90%;
+    margin-left: 11%;
+    height: 40rem;
 }
 
 }

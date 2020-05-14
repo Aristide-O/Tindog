@@ -12,6 +12,7 @@
 .Message {
     display: flex;
     flex-flow: row nowrap;
+    white-space: nowrap;
 }
 
 
@@ -19,9 +20,12 @@
     display: flex;
 }
 
+
 @media screen and (max-width:767px) {
     .Message {
         width: 15%;
     }
+
+    
   }
 

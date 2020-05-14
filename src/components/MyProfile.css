@@ -5,6 +5,7 @@
 
 .bg-profile {
     background-color: rgb(255, 255, 255);
+    height: 93vh;
 }
 
 .profil {
@@ -54,4 +55,10 @@
         padding: 1em;
         width: 80%;
     }
+
+    .bg-profile {
+        height: 91vh;
+    }
+
+
 }

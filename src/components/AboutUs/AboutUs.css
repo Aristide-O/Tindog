@@ -2,12 +2,12 @@
     display: inline-block;
     padding-bottom: 0.5em;
     font-size: 40px;
-    margin: auto;
+    margin: 0.5em auto;
     text-align: center;
     border-bottom: 1px solid salmon;
     margin-bottom: 1em;
     text-transform: uppercase;
-    color: rgb(56, 56, 56);
+    color: snow;
 }
 
 .equipe {
