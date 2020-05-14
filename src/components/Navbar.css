@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
 
 .Navbar {
+  margin: auto;
   background: #511845;
   padding-top: 1em;
   padding-bottom: 1em;
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   font-family: 'Dosis', sans-serif;
   width: 100%;
 }
@@ -16,9 +18,14 @@
   padding-bottom: 1em;
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   font-family: 'Dosis', sans-serif;
   width: 100%;
+}
+
+.center-logo {
+  margin: 0 5em;
 }
 
 .icons-navbar {
@@ -40,7 +47,6 @@ li {
 .img-pawprint-navbar {
   width: 32px;
   height: 32px;
-  margin-right: 15px;
 }
 
 .img-burger-navbar {
@@ -54,8 +60,6 @@ li {
   border: 2px solid white;
   font-size: 20px;
   padding: 3px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .tinder-navbar {
@@ -63,6 +67,7 @@ li {
   flex-direction: row;
   align-items: center;
 }
+
 .name-navbar-hidden-inscriptionPage {
   font-size: 30px;
 }
@@ -74,6 +79,7 @@ li {
 .name-navbar-hidden {
   font-size: 30px;
 }
+
 
 @media (min-width: 320px) and (max-width: 767px) {
   .Navbar {
@@ -93,20 +99,21 @@ li {
   }
 
   .name-navbar-hidden {
-    display: block;
+    display: flex;
     border: 2px solid white;
     font-size: 20px;
     padding: 3px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 45px;
+    margin-left: 23px;
   }
-  .p-navbarInscriptionPage {
-    margin-left: 100px;
+
+  .name-navbar-hidden-real {
+    display: flex;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 3px;
+    margin-right: 22px;
   }
-  .p-navbarLoginPage {
-    margin-left: 100px;
-  }
+ 
   .name-navbar-hidden-inscriptionPage {
     font-size: 20px;
   }
