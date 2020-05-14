@@ -1,8 +1,9 @@
-.landing {
+.loginPage {
     background-image: url('./Tindog-Transparent_all.png');
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 0;
+    height: 100vh;
   }
   
   @media (min-width: 320px) and (max-width: 767px) {
