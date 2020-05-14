@@ -9,6 +9,8 @@ import NoButton from "./NoButton/NoButton";
 import Footer from './Footer/Footer'
 import SideBar from './SideBar'
 
+import './MainPage.css'
+
 
 
 class MainPage extends React.Component {
@@ -43,12 +45,18 @@ class MainPage extends React.Component {
 
     render() {
         return (
+            <div>
             <div className='Mainpage'>
                 <SideBar right/>
                 <Navbar />
+                <div className="Page-Mainpage">
                 <CardType dogData={this.state}/>
+                <div className="Btn-Mainpage">
                 <NoButton fetch={()=>this.fetchData()}/>
                 <MatchButton name={this.state.userName} image={this.state.image}/>
+                </div>
+                </div>
+            </div>
                 <Footer />
             </div>
         )
