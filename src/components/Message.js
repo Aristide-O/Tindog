@@ -26,12 +26,13 @@ class Message extends React.Component {
             <div>
               <SideBar right/>
              <Navbar />
-             <div className="Message-Page">   
+             <div className="Message-Page">
               <div className="Message">
                <ContactList />
               </div>
               <div className="main-message-area">
                 <MessageList messages={this.state.messages} />
+               <p>caca</p> 
                 <MessageForm onMessageSend={this.handleNewMessage} />
               </div>    
              </div>
