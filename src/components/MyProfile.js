@@ -34,6 +34,7 @@ class MyProfile extends React.Component {
         console.log('render', this.state);
         
         return(
+            <div>
             <div className="bg-profile">
                 <SideBar right />
                 <Navbar />
@@ -60,6 +61,7 @@ class MyProfile extends React.Component {
                         <p>I’m here to meet some other friends with whom i could run and have fun. Also if I can find love because I’m feeling lonely and I got so much energy.</p>
                     </div>
                 </div>
+            </div>
                 <Footer />
             </div>
         )
