@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import Indicator from "./Indicator"
-import bubble from "../icons-navbar/speech-bubble.png"
 import "./FavCard.css"
 
 const FavCard = (props) => {
