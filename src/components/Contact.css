@@ -5,6 +5,8 @@
   display: flex;
   align-items: center;
   font-size: 20px;
+  height: 17vh;
+
 }
 
 /* Contact image */
@@ -50,7 +52,8 @@
 @media only screen and (max-width: 1024px) 
 {
   .Contact {
-    width: 115%;
+    width: 126%;
+    height: 17vh;
   }
   
   /* Contact image */
@@ -87,6 +90,14 @@
   
 }
 
+@media only screen and (max-width: 1023px) {
+  
+  .Contact{
+  width: 110%;
+  height: 16vh;
+}
+}
+
 
 @media screen and (max-width:767px) {
 .Contact {
@@ -94,10 +105,10 @@
   flex-direction: column;
   background: rgb(114, 84, 84);
   width: 60%;
-  height: 51px;
   align-items: center;
   font-size: 20px;
   justify-content: center;
+  height: 15vh;
 }
 
   

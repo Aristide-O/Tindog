@@ -6,12 +6,14 @@
 .main-message-area {
     width: 100%;
     padding: 5px;
+    height: 98vh;
 }
 
 
 .Message {
     display: flex;
     flex-flow: row nowrap;
+    white-space: nowrap;
 }
 
 
@@ -19,9 +21,12 @@
     display: flex;
 }
 
+
 @media screen and (max-width:767px) {
     .Message {
         width: 15%;
     }
+
+    
   }
 

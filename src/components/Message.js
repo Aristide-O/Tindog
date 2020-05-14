@@ -22,16 +22,17 @@ class Message extends React.Component {
       }
 
     render() {
+      const data = this.props.location.data
         return (
             <div>
               <SideBar right/>
-             <Navbar />
-             <div className="Message-Page">   
+              <Navbar />
+              <div className="Message-Page">
               <div className="Message">
-               <ContactList />
+              <ContactList />
               </div>
               <div className="main-message-area">
-                <MessageList messages={this.state.messages} />
+                <MessageList  messages={this.state.messages} name={data.nameDog}/>
                 <MessageForm onMessageSend={this.handleNewMessage} />
               </div>    
              </div>

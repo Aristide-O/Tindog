@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "../components/Navbar";
 import FavCard from "./FavCard";
+import Footer from "./Footer/Footer"
 import SideBar from "./SideBar"
 
 const fakeCard = [
@@ -93,6 +94,7 @@ class FavoriteProfile extends React.Component {
                         className="button-unfav">
                     </img>
                 </div>
+                <Footer />
             </div>
         )
     }
