@@ -3,35 +3,26 @@ import { NavLink } from 'react-router-dom'
 import '../components/Navbar.css';
 import pawprint_navbar from '../icons-navbar/pawprint (1).png';
 import logout_navbar from '../icons-navbar/logout.png';
-import burger from '../icons-navbar/open-menu (1).png'
-
 
 
 function NavbarInscriptionPage() {
     return (
-        <nav className='Navbar'>
+        <nav className='NavbarLoginPage'>
             <div className='tinder-navbar'>
                 <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo' /></NavLink>
-                <p className='name-navbar'>Tindog</p>
             </div>
 
-            <div>
+            <div className="center-logo">
                 <p className='name-navbar-hidden'>Tindog</p>
             </div>
 
-            <div className="p-navbarInscriptionPage">
+            <div className="p-navbarLoginPage">
                 <NavLink activeClassName="active" to='/loginpage'><p className="name-navbar-hidden-inscriptionPage">Sign in</p></NavLink>
             </div>
 
-            <div>
                 <div className='icons-navbar'>
                     <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo' /></NavLink>
                 </div>
-
-                <div className='icons-hidden'>
-                    <a href='' ><img className='img-burger-navbar' src={burger} alt='menu' /></a>
-                </div>
-            </div>
         </nav>
     )
 
