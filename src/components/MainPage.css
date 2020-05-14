@@ -1,0 +1,11 @@
+.Mainpage{
+    height: 91vh;
+   
+}
+.Mainpage-card{
+    position: absolute;
+    top: 50%;
+   
+    text-align: center;
+    object-position: center;
+}
