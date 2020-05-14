@@ -19,7 +19,7 @@ const FavCard = (props) => {
                         nameDog: props.name,
                     }
                 }}>
-                    <img className="icon-bubble" src={bubble} alt="envoyer un message" title="Envoyer un message" />
+                    <img className="icon-bubble" src="https://cdn1.iconfinder.com/data/icons/random-crafticons/48/misc-_message-512.png" alt="envoyer un message" title="Envoyer un message" />
                 </Link>
             </div>
         </div>
