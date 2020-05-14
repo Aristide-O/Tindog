@@ -4,7 +4,6 @@
     background-color: rgba(231, 231, 231);
     border-radius: 2%;
     width: 300px;
-    height: 350px;
     padding-bottom: 3%;
     margin: auto;
     margin-bottom: 1%;
@@ -17,9 +16,6 @@
 
 .img-card {
     width: 300px;
-    height: 200px;
-    object-fit: cover;
-    object-position: 100% 0;
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
 }
@@ -31,7 +27,6 @@
     text-align: left;
     padding-left: 0.3em;
     padding-right: 0.1em;
-    margin-top:  1.0em;
 }
 
 .text-total {
@@ -40,30 +35,3 @@
     justify-content: left;
 }
 
-
-
-@media screen and (max-width:1000px) {
-    .background-card {
-        width: 300px;
-        height: 350px;
-    }
-    .textDescription {
-        font-size: 18px;
-        margin-top:  1.0em;
-    }
-
-    .text-total {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .img-card {
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-        object-position: 100% 0;
-        border-top-left-radius: 2%;
-        border-top-right-radius: 2%;
-    }
-}

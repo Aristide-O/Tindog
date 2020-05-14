@@ -13,6 +13,18 @@
   width: 100%;
 }
 
+.NavbarLoginPage-I {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+  background-color: #511845;
+}
+
 .NavbarLoginPage {
   padding-top: 1em;
   padding-bottom: 1em;

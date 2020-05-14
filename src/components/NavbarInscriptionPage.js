@@ -7,7 +7,7 @@ import logout_navbar from '../icons-navbar/logout.png';
 
 function NavbarInscriptionPage() {
     return (
-        <nav className='NavbarLoginPage'>
+        <nav className='NavbarLoginPage-I'>
             <div className='tinder-navbar'>
                 <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo' /></NavLink>
             </div>
