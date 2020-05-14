@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
 .pseudo-fav-name{
@@ -12,6 +13,11 @@
 .icon-bubble {
     width: 32px;
     margin-left: 150px;
+}
+
+.icon-bubble:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 .button-unfav{
