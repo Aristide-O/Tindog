@@ -23,7 +23,6 @@ class Message extends React.Component {
 
     render() {
       const data = this.props.location.data
-      // console.log(data.nameDog);
         return (
             <div>
               <SideBar right/>
