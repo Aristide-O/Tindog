@@ -1,13 +1,15 @@
-import React from "react";
+import React from "react"
 
-import axios from 'axios';
+import axios from 'axios'
 
-import CardType from './CardType';
-import MatchButton from "./MatchButton";
+import CardType from './CardType'
+import MatchButton from "./MatchButton"
 import Navbar from './Navbar'
-import NoButton from "./NoButton/NoButton";
+import NoButton from "./NoButton/NoButton"
 import Footer from './Footer/Footer'
 import SideBar from './SideBar'
+
+import "./MainPage.css"
 
 
 
@@ -43,7 +45,7 @@ class MainPage extends React.Component {
 
     render() {
         return (
-            <div className='Mainpage'>
+            <div className='mainpage'>
                 <SideBar right/>
                 <Navbar />
                 <CardType dogData={this.state}/>
@@ -56,4 +58,4 @@ class MainPage extends React.Component {
 }
 
 
-export default MainPage;
+export default MainPage
