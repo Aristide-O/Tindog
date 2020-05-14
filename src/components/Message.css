@@ -6,6 +6,7 @@
 .main-message-area {
     width: 100%;
     padding: 5px;
+    height: 98vh;
 }
 
 
@@ -25,5 +26,7 @@
     .Message {
         width: 15%;
     }
+
+    
   }
 
