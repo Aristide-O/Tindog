@@ -19,6 +19,10 @@ function NavbarInscriptionPage() {
            <p className='name-navbar-hidden'>Tindog</p>
           </div>
 
+          <div className="p-navbarInscriptionPage">
+                <NavLink activeClassName="active" to='/loginpage'><p className="name-navbar-hidden-inscriptionPage">Sign in</p></NavLink>
+            </div>
+
           <div>
            <div className='icons-navbar'>
             <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo'/></NavLink>

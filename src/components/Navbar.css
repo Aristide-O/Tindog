@@ -95,3 +95,16 @@ li {
     margin-right: 45px;
   }
 }
+
+.p-navbarInscriptionPage {
+  margin-left: 100px;
+}
+.p-navbarLoginPage {
+  margin-left: 100px;
+}
+.name-navbar-hidden-inscriptionPage {
+  font-size: 20px;
+}
+.name-navbar-hidden-loginPage {
+  font-size: 20px;
+}
