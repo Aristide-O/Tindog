@@ -8,7 +8,7 @@ export default props => {
   return (
     <Menu {...props}>
         <NavLink to="mainpage">Find match</NavLink>
-        <NavLink to="/message">Message</NavLink>
+        <NavLink to="/messageWB">Message</NavLink>
         <NavLink to='/favoriteprofile'>Favorite Profiles</NavLink>
         <NavLink to='/myprofile'>My Profile</NavLink>
         <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo'/></NavLink>

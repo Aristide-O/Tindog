@@ -9,6 +9,7 @@ import LandingPage from './components/LandingPage';
 import LoginPage from "./components/LoginPage";
 import MainPage from './components/MainPage';
 import Message from "./components/Message";
+import MessageWB from "./components/MessageWB";
 import MyProfile from "./components/MyProfile";
 
 
@@ -20,6 +21,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/message" component={Message} />
+        <Route path="/messageWB" component={MessageWB} />
         <Route path="/mainpage" component={MainPage} />
         <Route path="/favoriteprofile" component={FavoriteProfile} />
         <Route path="/myprofile" component={MyProfile} />

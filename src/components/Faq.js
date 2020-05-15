@@ -3,6 +3,7 @@ import Faq from "react-faq-component";
 import Footer from "./Footer/Footer"
 import Navbar from "./Navbar"
 import SideBar from "./SideBar"
+import "./Faq.css"
  
 const data = {
     title: "FAQ (How it works)",
