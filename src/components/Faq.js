@@ -10,28 +10,28 @@ const data = {
     rows: [
         {
             title: "Who is Tindog made for ?",
-            content: `Pour les maitres et leur(s) chien(s) ! `,
+            content: `For handlers and their dog (s)! `,
         },
         {
             title: "What is a WAAF ?",
             content:
-                "On appel un WAAF le bouton qui te permet de liker un profil",
+                "We call a WAAF button which allows you to like a profile",
         },
         {
             title: "What is a GRRRF ?",
-            content: `Le WAAF, c'est le bouton qui te permet de nexter un profil et de passer au suivant`,
+            content: `WAAF is the button that allows you to skip one profile and move on to the next.`,
         },
         {
             title: "How to send a message ?",
-            content: `Vous pouvez passer directement par la page message ou vous pouvez également passer par l'icone message lorsque vou setes dans la page de vos favoris, pour lui envoyer directement un message.`,
+            content: `You can go directly through the message page or you can also go through the message icon when you are in the page of your favorites, to send him a message directly.`,
         },
         {
             title: "How to block a user ?",
-            content: `Veuillez contacter l'équipe technique.`,
+            content: `Please contact the technical team.`,
         },
         {
             title: "How to delete my account ?",
-            content: `Nous n'avons pas encore cette possibilité, mais cela viendra !`,
+            content: `We don't have that possibility yet, but it will come!`,
         },
         {
             title: "What is the package version",
@@ -39,7 +39,7 @@ const data = {
         },
         {
             title: "L'équipe Tindog ?",
-            content: "L'équipe Tindog est une team de 5 developpeurs ayant fait leurs études à la Wild Code School à Paris, pour en savoir plus, rendez-vous sur la page About Us"
+            content: "The Tindog team is a team of 5 developers who studied at the Wild Code School in Paris, to find out more, visit the About Us page"
         }
     ],
 };
