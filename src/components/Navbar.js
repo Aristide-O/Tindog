@@ -7,10 +7,7 @@ import message from '../icons-navbar/speech-bubble.png'
 import logout_navbar from '../icons-navbar/logout.png'
 import pawprint_navbar from '../icons-navbar/pawprint (1).png'
 import profile from '../icons-navbar/user-image-with-black-background (1).png'
-import SideBar from "./SideBar"
-
 import '../components/Navbar.css'
-
 
 
 function Navbar() {
