@@ -111,7 +111,7 @@ class LogInInformation extends React.Component {
             onChange={this.onChange}
             value={this.state.date}
           />
-          <label  className="LogInLabel" htmlFor="description">Description:*</label>
+          <label  className="LogInLabel" htmlFor="description">Description:</label>
           <textarea className="textareaL" value={this.state.description} onChange={this.handleChangeDescription} />
           <label className="LogInLabel" htmlFor="location">Location: </label>
           <GetLocation />
