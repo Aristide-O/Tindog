@@ -69,7 +69,7 @@ class LogInInformation extends React.Component {
             <input className="file" type="file" onChange={this.handleChange} />
           </div>
           <div className="block1L">
-            <label className="LogInLabel" htmlFor="pseudo">Pseudo: </label>
+            <label className="LogInLabel" htmlFor="pseudo">Pseudo:* </label>
             <input
             className="inputL"
               id="pseudo"
@@ -77,7 +77,7 @@ class LogInInformation extends React.Component {
               value={this.state.pseudo}
               onChange={this.handleChangePseudo}
             />
-            <label className="LogInLabel" htmlFor="email">Email address: </label>
+            <label className="LogInLabel" htmlFor="email">Email address:* </label>
             <input
             className="inputL"
               id="email"
@@ -85,7 +85,7 @@ class LogInInformation extends React.Component {
               value={this.state.email}
               onChange={this.handleChangeEmail}
             />
-            <label className="LogInLabel" htmlFor="password">Password: </label>
+            <label className="LogInLabel" htmlFor="password">Password:* </label>
             <input
             className="inputL"
               id="password"
@@ -111,7 +111,7 @@ class LogInInformation extends React.Component {
             onChange={this.onChange}
             value={this.state.date}
           />
-          <label  className="LogInLabel" htmlFor="description">Description:</label>
+          <label  className="LogInLabel" htmlFor="description">Description:*</label>
           <textarea className="textareaL" value={this.state.description} onChange={this.handleChangeDescription} />
           <label className="LogInLabel" htmlFor="location">Location: </label>
           <GetLocation />
