@@ -3,54 +3,44 @@ import Faq from "react-faq-component";
 import Footer from "./Footer/Footer"
 import Navbar from "./Navbar"
 import SideBar from "./SideBar"
+import "./Faq.css"
  
 const data = {
     title: "FAQ (How it works)",
     rows: [
         {
             title: "Who is Tindog made for ?",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, 
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus. 
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae. 
-              Fusce sed commodo purus, at tempus turpis.`,
+            content: `For handlers and their dog (s)! `,
         },
         {
             title: "What is a WAAF ?",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                "We call a WAAF button which allows you to like a profile",
         },
         {
             title: "What is a GRRRF ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `WAAF is the button that allows you to skip one profile and move on to the next.`,
         },
         {
             title: "How to send a message ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `You can go directly through the message page or you can also go through the message icon when you are in the page of your favorites, to send him a message directly.`,
         },
         {
             title: "How to block a user ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Please contact the technical team.`,
         },
         {
             title: "How to delete my account ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `We don't have that possibility yet, but it will come!`,
         },
         {
             title: "What is the package version",
             content: "v1.0.0",
         },
+        {
+            title: "L'équipe Tindog ?",
+            content: "The Tindog team is a team of 5 developers who studied at the Wild Code School in Paris, to find out more, visit the About Us page"
+        }
     ],
 };
  
@@ -68,7 +58,9 @@ export default class App extends Component {
             <div>
                 <SideBar right/>
                 <Navbar />
-                <Faq data={data} styles={styles} />
+                <div className="wrapper-faq">
+                    <Faq data={data} styles={styles} />
+                </div>
                 <Footer />
             </div>
         );

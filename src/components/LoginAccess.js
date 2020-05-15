@@ -3,18 +3,13 @@ import './LoginAccess.css'
 import LoginButton from './LoginButton'
 
 
-
 class LoginAccess extends React.Component {
     constructor(props) {
       super(props)
          this.state = {
           email: '',
           password:''
-        
         }
-         
-           
-    
     }
 
     handleChangeEmail = (event) => {
