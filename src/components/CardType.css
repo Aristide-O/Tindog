@@ -4,7 +4,7 @@
     background-color: rgba(231, 231, 231);
     border-radius: 2%;
     width: 300px;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     margin: auto;
     margin-bottom: 1%;
     text-align: center;
@@ -16,6 +16,8 @@
 
 .img-card {
     width: 300px;
+    min-height: 280px;
+    max-height: 281px;
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
 }
