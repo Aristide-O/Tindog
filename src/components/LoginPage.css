@@ -1,8 +1,8 @@
 .loginPage {
+    padding-top: 20px;
     background-image: url('./Tindog-Transparent_all.png');
     background-repeat: no-repeat;
-    background-position: top;
-    padding-top: 0;
+    background-position: 50% 20%;
     height: 100vh;
   }
   
