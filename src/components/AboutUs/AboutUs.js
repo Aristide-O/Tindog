@@ -14,37 +14,37 @@ import './AboutUs.css';
 
 const members = [
     {
-        name : 'Greta',
-        image : {url : GretaImage},
-        alt : "Avatar de Greta Mezzina"
+        name: 'Greta',
+        image: { url: GretaImage },
+        alt: "Avatar de Greta Mezzina"
     },
     {
-        name : 'Aristide',
-        image : {url :AristideImage},
-        alt : "Avatar de Aristide"
+        name: 'Aristide',
+        image: { url: AristideImage },
+        alt: "Avatar de Aristide"
     },
     {
-        name : 'Juba',
-        image : {url :JubaImage},
-        alt : "Avatar de Juba Garidi"
+        name: 'Juba',
+        image: { url: JubaImage },
+        alt: "Avatar de Juba Garidi"
     },
     {
-        name : 'Tristan',
-        image : {url : TristanImage},
-        alt : "Avatar de Tristan Manaut"
+        name: 'Tristan',
+        image: { url: TristanImage },
+        alt: "Avatar de Tristan Manaut"
     },
     {
-        name : 'Audrey',
-        image : {url : AudreyImage},
-        alt : "Avatar de Audrey Ritzenthaler"
+        name: 'Audrey',
+        image: { url: AudreyImage },
+        alt: "Avatar de Audrey Ritzenthaler"
     },
 ]
 
 
 const AboutUs = () => {
-    return(
+    return (
         <div>
-            <SideBar right/>
+            <SideBar right />
             <Navbar />
             <h1 className="title-aboutus">About Us</h1>
             <h2 className="team">Team Members</h2>
@@ -55,10 +55,12 @@ const AboutUs = () => {
             </div>
             <div>
                 <p className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Once upon a Time, there were five aspiring web developers with a challenging idea: creating a mobile application for dog owners and their little furry companions, the goal was to ease finding their pets a friend in the busy city life.
+                    The five of them were enrolled in an intensive program to learn Full-stack JavaScript Development, which started in March 2020 and would end in July, covering some of the most used web development technologies: HTML/CSS, JS, ReactJS, NodeJS and SQL.
                 <br />
-                <br />
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum !
+                    <br />
+                The project rose in a moment we all remember, quarantine, the group could do nothing but coding, and so they did. They had four weeks for the development and some days for the wireframing and mockups.
+                The idea was simple, to reproduce wildly understandable UX with a sexy interface, and so they decided to code in ReactJS, putting into practice all the knowledge they had acquired in two months of coding school: classes, sates, lifting states, axios etc...The UI easily remembers other meeting apps, with bright colors and an intuitive design, it is possible to like a dog, to write to his owner and finally to keep all the liked dog profiles in a specific page
                 </p>
             </div>
             <Footer />
