@@ -38,13 +38,26 @@
     color:#511845 ;
 }
 
-.inputL, .textareaL, .selectL {
+.inputL, .selectL {
     border: white;
     border-radius: 5px;
     border: 2px solid  #900c3f;
     border-top : 2px solid  #511845; 
     box-shadow: 2px 2px 1px grey;
     height: 30px;
+    font-family:  'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: white;  
+}
+
+.textareaL
+{
+    border: white;
+    border-radius: 5px;
+    border: 2px solid  #900c3f;
+    border-top : 2px solid  #511845; 
+    box-shadow: 2px 2px 1px grey;
+    height: 80px;
     font-family:  'Dosis', sans-serif;
     font-size: 20px;
     background-color: white;  
