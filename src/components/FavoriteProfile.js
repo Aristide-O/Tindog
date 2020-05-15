@@ -70,7 +70,7 @@ class FavoriteProfile extends React.Component {
             <div>
                 <SideBar right />
             <Navbar />
-                <h1 className="title-fav">Retrouve ici tes profils favoris !</h1>
+                <h1 className="title-fav">Find your favorites profils here !</h1>
                 <div>
                     { this.state.favorite.map((doggy, i) => 
                     <div>
