@@ -3,28 +3,28 @@ import Contact from "./Contact"
 
 const users = [
   {
-    name: 'Loloyo',
-    avatar: 'https://images.dog.ceo/breeds/pembroke/n02113023_12192.jpg',
+    name: 'Burton',
+    avatar: 'https://images.unsplash.com/photo-1526520112421-5054395689a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     online: false
   },
   {
-    name: 'Ruby',
-    avatar: 'https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_2069.jpg',
+    name: 'Bébé',
+    avatar: 'https://images.unsplash.com/photo-1586225674384-48018cd72162?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=798&q=80',
     online: true
   },
   {
-    name: 'Scania',
-    avatar: 'https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_14126.jpg',
+    name: 'Foxy',
+    avatar: 'https://images.unsplash.com/photo-1572896954319-785d85e13cb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=832&q=80',
     online: true
   },
   {
-    name: 'Rapido',
-    avatar: 'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_1695.jpg',
+    name: 'Lardon',
+    avatar: 'https://images.unsplash.com/photo-1552401601-33db828218aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80',
     online: false
   },
   {
-    name: 'Roxy',
-    avatar: 'https://images.dog.ceo/breeds/vizsla/n02100583_10425.jpg',
+    name: 'Lumine',
+    avatar: 'https://images.unsplash.com/photo-1497993950456-cdb57afd1cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80',
     online: true
   }
 ];
