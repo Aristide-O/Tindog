@@ -10,48 +10,37 @@ const data = {
     rows: [
         {
             title: "Who is Tindog made for ?",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, 
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus. 
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae. 
-              Fusce sed commodo purus, at tempus turpis.`,
+            content: `Pour les maitres et leur(s) chien(s) ! `,
         },
         {
             title: "What is a WAAF ?",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                "On appel un WAAF le bouton qui te permet de liker un profil",
         },
         {
             title: "What is a GRRRF ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Le WAAF, c'est le bouton qui te permet de nexter un profil et de passer au suivant`,
         },
         {
             title: "How to send a message ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Vous pouvez passer directement par la page message ou vous pouvez également passer par l'icone message lorsque vou setes dans la page de vos favoris, pour lui envoyer directement un message.`,
         },
         {
             title: "How to block a user ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Veuillez contacter l'équipe technique.`,
         },
         {
             title: "How to delete my account ?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. 
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. 
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. 
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            content: `Nous n'avons pas encore cette possibilité, mais cela viendra !`,
         },
         {
             title: "What is the package version",
             content: "v1.0.0",
         },
+        {
+            title: "L'équipe Tindog ?",
+            content: "L'équipe Tindog est une team de 5 developpeurs ayant fait leurs études à la Wild Code School à Paris, pour en savoir plus, rendez-vous sur la page About Us"
+        }
     ],
 };
  
@@ -69,7 +58,9 @@ export default class App extends Component {
             <div>
                 <SideBar right/>
                 <Navbar />
-                <Faq data={data} styles={styles} />
+                <div className="wrapper-faq">
+                    <Faq data={data} styles={styles} />
+                </div>
                 <Footer />
             </div>
         );
