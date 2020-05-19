@@ -12,6 +12,7 @@ function NavbarInscriptionPage() {
         <nav className='Navbar'>
             <div className='tinder-navbar'>
                 <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo' /></NavLink>
+                <p className='name-navbar'>Tindog</p>
             </div>
 
             <div>
