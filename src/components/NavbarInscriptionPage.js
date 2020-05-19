@@ -11,19 +11,19 @@ function NavbarInscriptionPage() {
     return (
         <nav className='Navbar'>
             <div className='tinder-navbar'>
-                <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar' src={pawprint_navbar} alt='logo' /></NavLink>
+                <NavLink activeClassName="active" exact to='/'><img className='img-pawprint-navbar-intro' src={pawprint_navbar} alt='logo' /></NavLink>
                 <p className='name-navbar'>Tindog</p>
             </div>
 
             <div>
-                <p className='name-navbar-hidden'>Tindog</p>
+                <p className="name-navbar-hidden-tindog">Tindog</p>
             </div>
 
             <div className="p-navbarInscriptionPage">
-                <NavLink activeClassName="active" to='/loginpage'><p className="name-navbar-hidden-inscriptionPage">Sign in</p></NavLink>
+                <NavLink activeClassName="active" to='/loginpage'><p className="name-navbar-hidden-signIn">Sign in</p></NavLink>
             </div>
 
-            <div>
+            
                 <div className='icons-navbar'>
                     <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo' /></NavLink>
                 </div>
@@ -31,7 +31,6 @@ function NavbarInscriptionPage() {
                 <div className='icons-hidden'>
                     <a href='' ><img className='img-burger-navbar' src={burger} alt='menu' /></a>
                 </div>
-            </div>
         </nav>
     )
 

@@ -1,5 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap%22");
 
+.icons-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-burger-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  display: none;
+}
+
+.img-icons-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.img-pawprint-navbar {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.name-navbar {
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
 .Navbar {
   background: #511845;
   padding-top: 1em;
@@ -21,48 +60,12 @@
   width: 100%;
 }
 
-.icons-navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-li {
-  list-style-type: none;
-}
-
-.img-icons-navbar {
-  width: 32px;
-  height: 32px;
-  margin-right: 15px;
-}
-
-.img-pawprint-navbar {
-  width: 32px;
-  height: 32px;
-  margin-right: 15px;
-}
-
-.img-burger-navbar {
-  width: 32px;
-  height: 32px;
-  margin-right: 15px;
-  display: none;
-}
-
-.name-navbar {
-  border: 2px solid white;
-  font-size: 20px;
-  padding: 3px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .tinder-navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .name-navbar-hidden-inscriptionPage {
   font-size: 30px;
   display: none;
@@ -79,25 +82,15 @@ li {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .Navbar {
-    background: #511845;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-  }
-
-  .NavbarLoginPage {
-    background: #511845;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
-
   .icons-navbar {
     display: none;
   }
+
+  .img-pawprint-navbar-intro {
+    width: 32px;
+    height: 32px;
+    margin-left: 38px;
+}
 
   .name-navbar {
     display: none;
@@ -112,16 +105,30 @@ li {
     margin-bottom: 0;
     margin-right: 45px;
   }
-  .p-navbarInscriptionPage {
-    margin-left: 100px;
-  }
-  .p-navbarLoginPage {
-    margin-left: 100px;
-  }
-  .name-navbar-hidden-inscriptionPage {
+
+  .name-navbar-hidden-tindog {
+    display: block;
+    border: 2px solid white;
     font-size: 20px;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 18px;
+    
   }
-  .name-navbar-hidden-loginPage {
+
+  .name-navbar-hidden-signIn {
     font-size: 20px;
+    display: block;
+    margin-right: 30px;
   }
+ 
+  .Navbar {
+    background: #511845;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
 }
