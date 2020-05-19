@@ -19,7 +19,7 @@ class MessageList extends React.Component {
  render() {
     return (
         <div className="MessageList">
-          <p className="msg-send">Be the first to send a message to {this.props.name} !</p> 
+          <p className="msg-send">Send a message</p> 
           {this.props.messages.map((message, i) => (
           <UserMessage key={i} {...message} />
         ))}

@@ -32,7 +32,7 @@ class Message extends React.Component {
               <ContactList />
               </div>
               <div className="main-message-area">
-                <MessageList  messages={this.state.messages} name={data.nameDog}/>
+                <MessageList  messages={this.state.messages} />
                 <MessageForm onMessageSend={this.handleNewMessage} />
               </div>    
              </div>
