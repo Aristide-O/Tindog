@@ -1,8 +1,35 @@
+
+
+## Tindog
+
+A fake meeting app of what would have been if there were a tinder for dogs..
+
+### Getting Started
+
+## Prerequisites
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
+
+## Dependencies
+
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "prop-type": "0.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-avatar-editor": "^12.0.0-beta.0",
+    "react-bootstrap": "^1.0.1",
+    "react-burger-menu": "^2.6.13",
+    "react-date-picker": "^8.0.1",
+    "react-dom": "^16.13.1",
+    "react-faq-component": "^1.0.5",
+    "react-geolocated": "^3.0.1",
+    "react-modal": "^3.11.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1"
+
 
 ### `npm start`
 
