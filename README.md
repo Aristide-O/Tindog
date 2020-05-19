@@ -4,15 +4,15 @@
 
 A fake meeting app of what would have been if there were a tinder for dogs..
 
-### Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
-## Dependencies
+### Dependencies
 
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
