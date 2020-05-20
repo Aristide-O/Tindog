@@ -56,10 +56,8 @@ class MainPage extends React.Component {
                     <Navbar />
                     <div className="Page-Mainpage">
                         <CardType dogData={this.state}/>
-                        <div className="Btn-Mainpage">
-                            <NoButton fetch={()=>this.fetchData()}/>
-                            <MatchButton name={this.state.userName} image={this.state.image}/>
-                        </div>
+                            <NoButton className="NoButton-MainPage" fetch={()=>this.fetchData()}/>
+                            <MatchButton className="MatchButton-MainPage" name={this.state.userName} image={this.state.image}/>
                     </div>
                 </div>
                 <Footer />

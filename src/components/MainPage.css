@@ -1,5 +1,6 @@
+
 .Mainpage{
-    height: 91vh;
+    height: 100vh;
    
 }
 .Mainpage-card{
@@ -9,3 +10,6 @@
     text-align: center;
     object-position: center;
 }
+
+
+
