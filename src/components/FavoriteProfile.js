@@ -86,8 +86,7 @@ class FavoriteProfile extends React.Component {
                         </img>
                     </div>
                     )}
-                    {/* <FavCard image={data && data.dogImage.url} name={data && data.dogName.name.first}/> */}
-                    <FavCard />
+                    <FavCard image={data && data.dogImage.url} name={data && data.dogName.name.first}/>
                     <img 
                         src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" 
                         alt="étoile de favoris" 
