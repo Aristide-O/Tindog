@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import SignIn from "./SignIn"
-import SignUp from "./SignUp"
+import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 import './LandingPage.css';
 
 const LandingPage = () => {
@@ -13,4 +13,4 @@ const LandingPage = () => {
     )
 }
 
-export default LandingPage
+export default LandingPage;

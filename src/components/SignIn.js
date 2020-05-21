@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from "react-router-dom"
-import './SignIn.css'
+import React from 'react';
+import { Link } from "react-router-dom";
+import './SignIn.css';
 
 
 class SignIn extends React.Component {
@@ -15,7 +15,7 @@ class SignIn extends React.Component {
     }
 }
 
-export default SignIn
+export default SignIn;
 
 
 

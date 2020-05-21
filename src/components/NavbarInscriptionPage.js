@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import '../components/Navbar.css';
 import pawprint_navbar from '../icons-navbar/pawprint (1).png';
 import logout_navbar from '../icons-navbar/logout.png';
-import burger from '../icons-navbar/open-menu (1).png'
+import burger from '../icons-navbar/open-menu (1).png';
 
 
 

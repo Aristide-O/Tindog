@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 import './LoginPage.css';
-import LoginAccess from "./LoginAccess"
+import LoginAccess from "./LoginAccess";
 import NavbarLoginPage from "./NavbarLoginPage.js";
 
 const LoginPage=() => {
@@ -14,4 +14,4 @@ const LoginPage=() => {
     )
 }
 
-export default LoginPage
+export default LoginPage;

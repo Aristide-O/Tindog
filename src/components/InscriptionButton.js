@@ -70,4 +70,4 @@ state = {
     }
 }
 
-export default InscriptionButton
+export default InscriptionButton;

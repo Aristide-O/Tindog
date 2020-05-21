@@ -3,12 +3,12 @@ import axios from 'axios';
 
 import CardType from './CardType';
 import MatchButton from "./MatchButton";
-import Navbar from './Navbar'
+import Navbar from './Navbar';
 import NoButton from "./NoButton/NoButton";
-import Footer from './Footer/Footer'
-import SideBar from './SideBar'
+import Footer from './Footer/Footer';
+import SideBar from './SideBar';
 
-import './MainPage.css'
+import './MainPage.css';
 
 
 class MainPage extends React.Component {

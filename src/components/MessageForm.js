@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import './MessageForm.css'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import './MessageForm.css';
 
 class MessageForm extends Component {
   static propTypes = {
@@ -37,4 +37,4 @@ class MessageForm extends Component {
   }
 }
 
-export default MessageForm
+export default MessageForm;

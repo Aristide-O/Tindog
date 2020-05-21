@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import UserMessage from './UserMessage'
-import './MessageList.css'
+import React from 'react';
+import PropTypes from 'prop-types';
+import UserMessage from './UserMessage';
+import './MessageList.css';
 
 class MessageList extends React.Component {
   static propTypes = {
@@ -29,4 +29,4 @@ class MessageList extends React.Component {
 }
 
 
-export default MessageList
+export default MessageList;

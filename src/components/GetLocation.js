@@ -1,9 +1,9 @@
-import React from 'react'
-import { geolocated } from "react-geolocated"
+import React from 'react';
+import { geolocated } from "react-geolocated";
 
-import axios from 'axios'
+import axios from 'axios';
 
-import './GetLocation.css'
+import './GetLocation.css';
 
  
 class GetLocation extends React.Component {

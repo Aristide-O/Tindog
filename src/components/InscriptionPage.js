@@ -22,6 +22,6 @@ class InscriptionPage extends React.Component {
     }
     }
 
-export default InscriptionPage
+export default InscriptionPage;
 
 

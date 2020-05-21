@@ -1,7 +1,9 @@
-import React from 'react'
-import { Link } from "react-router-dom"
-import paws from '../Icons-footer/paws.png'
-import './Footer.css'
+import React from 'react';
+import { Link } from "react-router-dom";
+
+import paws from '../Icons-footer/paws.png';
+
+import './Footer.css';
 
 
 const Footer = () => {
@@ -39,4 +41,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

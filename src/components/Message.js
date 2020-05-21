@@ -1,11 +1,11 @@
-import React from "react"
-import ContactList from "./ContactList"
+import React from "react";
+import ContactList from "./ContactList";
 import Footer from "./Footer/Footer";
-import MessageForm from './MessageForm'
-import MessageList from "./MessageList"
+import MessageForm from './MessageForm';
+import MessageList from "./MessageList";
 import Navbar from "./Navbar";
-import SideBar from "./SideBar"
-import "./Message.css"
+import SideBar from "./SideBar";
+import "./Message.css";
 
 class Message extends React.Component {
     constructor(props) {

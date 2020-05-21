@@ -1,6 +1,6 @@
-import React from 'react'
-import './LoginButton.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './LoginButton.css';
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 
 
@@ -46,4 +46,4 @@ class LoginButton extends React.Component {
 
 
 
-export default LoginButton
+export default LoginButton;

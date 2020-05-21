@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+
 import Faq from "react-faq-component";
-import Footer from "./Footer/Footer"
-import Navbar from "./Navbar"
-import SideBar from "./SideBar"
+
+import Footer from "./Footer/Footer";
+import Navbar from "./Navbar";
+import SideBar from "./SideBar";
  
 const data = {
     title: "FAQ (How it works)",

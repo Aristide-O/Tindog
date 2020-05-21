@@ -3,7 +3,7 @@ import React from 'react';
 import ConnectionPseudo from './ConnectionPseudo';
 import ImageCard from './ImageCard';
 
-import './CardType.css'
+import './CardType.css';
 
 
 const CardType = (props) => {

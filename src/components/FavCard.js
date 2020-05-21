@@ -1,7 +1,9 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import Indicator from "./Indicator"
-import "./FavCard.css"
+import React from "react";
+import { Link } from "react-router-dom";
+
+import Indicator from "./Indicator";
+
+import "./FavCard.css";
 
 const FavCard = (props) => {
     return(
@@ -26,4 +28,4 @@ const FavCard = (props) => {
 }
 
 
-export default FavCard
+export default FavCard;

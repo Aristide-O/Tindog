@@ -1,6 +1,6 @@
-import React from 'react'
-import './LoginAccess.css'
-import LoginButton from './LoginButton'
+import React from 'react';
+import './LoginAccess.css';
+import LoginButton from './LoginButton';
 
 
 
@@ -44,4 +44,4 @@ class LoginAccess extends React.Component {
         )
     }
 }
-export default LoginAccess
+export default LoginAccess;

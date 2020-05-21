@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import DatePicker from 'react-date-picker'
+import DatePicker from 'react-date-picker';
 
-import GetLocation from './GetLocation'
+import GetLocation from './GetLocation';
 
-import './LogInInformation.css'
-import './ProfilePhoto.css'
-import InscriptionButton from './InscriptionButton'
+import './LogInInformation.css';
+import './ProfilePhoto.css';
+import InscriptionButton from './InscriptionButton';
 
 
 class LogInInformation extends React.Component {
@@ -123,6 +123,6 @@ class LogInInformation extends React.Component {
 }
 
 
-export default LogInInformation
+export default LogInInformation;
 
 

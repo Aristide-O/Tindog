@@ -11,8 +11,6 @@
   background-color: white;
   border-radius: 50%;
   margin-left: 15px;
-  margin-bottom: 60px;
-  margin-top: 60px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

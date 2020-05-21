@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  height: 208px;
+  height: 12%;
+
 
 }
 
@@ -53,7 +54,8 @@
 {
   .Contact {
     width: 126%;
-    height: 201px;
+    height: 12%;
+
   }
   
   /* Contact image */
@@ -94,7 +96,8 @@
   
   .Contact{
   width: 110%;
-  height: 134px;
+  height: 12%;
+
 }
 }
 
@@ -108,7 +111,8 @@
   align-items: center;
   font-size: 20px;
   justify-content: center;
-  height: 6rem;
+  height: 13%;
+
 }
 
   

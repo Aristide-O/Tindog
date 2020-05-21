@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
+
 import Navbar from "../components/Navbar";
 import FavCard from "./FavCard";
-import Footer from "./Footer/Footer"
-import SideBar from "./SideBar"
+import Footer from "./Footer/Footer";
+import SideBar from "./SideBar";
 
 const fakeCard = [
     {
@@ -100,4 +101,4 @@ class FavoriteProfile extends React.Component {
         )
     }
 }
-export default FavoriteProfile
+export default FavoriteProfile;

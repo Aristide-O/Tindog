@@ -1,8 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 import { bubble as Menu } from "react-burger-menu";
-import logout_navbar from '../icons-navbar/logout.png'
-import './SideBar.css'
+import logout_navbar from '../icons-navbar/logout.png';
+import './SideBar.css';
 
 export default props => {
   return (

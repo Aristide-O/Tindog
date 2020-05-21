@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './ProfilePhoto.css'
+import './ProfilePhoto.css';
 
 class ProfilePhoto extends React.Component{
 
@@ -29,4 +29,4 @@ class ProfilePhoto extends React.Component{
 
    
 
-export default ProfilePhoto
+export default ProfilePhoto;

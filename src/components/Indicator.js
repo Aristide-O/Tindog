@@ -1,5 +1,5 @@
 import React from 'react';
-import './Indicator.css'
+import './Indicator.css';
 
 class Indicator extends React.Component {
     state ={

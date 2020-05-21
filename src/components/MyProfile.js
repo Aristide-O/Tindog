@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-import Footer from "./Footer/Footer"
+import Footer from "./Footer/Footer";
 import Navbar from "../components/Navbar";
-import Indicator from './Indicator'
-import SideBar from "./SideBar"
+import Indicator from './Indicator';
+import SideBar from "./SideBar";
 
-import './MyProfile.css'
+import './MyProfile.css';
 
 class MyProfile extends React.Component {
     state = {

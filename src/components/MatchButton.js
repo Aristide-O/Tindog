@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import '../MatchButton.css'
+import { Link } from 'react-router-dom';
+import '../MatchButton.css';
 
 function MatchButton (props) {
   return (

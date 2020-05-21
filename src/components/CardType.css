@@ -8,7 +8,7 @@
     margin: auto;
     margin-bottom: 1%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .flex-cardType {
@@ -16,7 +16,8 @@
 }
 
 .img-card {
-    width: 60%;
+    width: 100%;
+    height: 300px;
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
 }
@@ -45,4 +46,15 @@
     .textDescription {
         font-size: 18px;
     }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .img-card {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+    }
+
 }

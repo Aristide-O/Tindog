@@ -11,5 +11,15 @@
     object-position: center;
 }
 
+.Page-Mainpage {
+    height: 50vh;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .Page-Mainpage {
+        height: 80vh;
+    }
+}
+
 
 

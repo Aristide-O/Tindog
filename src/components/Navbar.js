@@ -1,15 +1,15 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import burger from '../icons-navbar/open-menu (1).png'
-import home from '../icons-navbar/home.png'
-import like from '../icons-navbar/like.png'
-import message from '../icons-navbar/speech-bubble.png'
-import logout_navbar from '../icons-navbar/logout.png'
-import pawprint_navbar from '../icons-navbar/pawprint (1).png'
-import profile from '../icons-navbar/user-image-with-black-background (1).png'
+import burger from '../icons-navbar/open-menu (1).png';
+import home from '../icons-navbar/home.png';
+import like from '../icons-navbar/like.png';
+import message from '../icons-navbar/speech-bubble.png';
+import logout_navbar from '../icons-navbar/logout.png';
+import pawprint_navbar from '../icons-navbar/pawprint (1).png';
+import profile from '../icons-navbar/user-image-with-black-background (1).png';
 
-import '../components/Navbar.css'
+import '../components/Navbar.css';
 
 
 
