@@ -23,14 +23,12 @@ function NavbarInscriptionPage() {
                 <NavLink activeClassName="active" to='/loginpage'><p className="name-navbar-hidden-signIn">Sign in</p></NavLink>
             </div>
 
-            
-                <div className='icons-navbar'>
-                    <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo' /></NavLink>
-                </div>
-
-                <div className='icons-hidden'>
-                    <a href='' ><img className='img-burger-navbar' src={burger} alt='menu' /></a>
-                </div>
+            <div className='icons-hidden'>
+                <a href='' ><img className='img-burger-navbar' src={burger} alt='menu' /></a>
+            </div>
+            <div className='icons-navbar'>
+                <NavLink activeClassName="active" exact to='/'><img className='img-icons-navbar' src={logout_navbar} alt='logo' /></NavLink>
+            </div>
         </nav>
     )
 
