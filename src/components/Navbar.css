@@ -151,3 +151,57 @@ li {
   }
   
 }
+
+@media (min-width: 180px) and (max-width: 320px){
+
+  .icons-navbar {
+    display: none;
+  }
+
+  .img-pawprint-navbar-intro {
+    width: 32px;
+    height: 32px;
+    margin-left: 38px;
+}
+
+  .name-navbar {
+    display: none;
+  }
+
+  .name-navbar-hidden {
+    display: block;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 45px;
+  }
+
+  .name-navbar-hidden-tindog {
+    display: block;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 18px;
+    
+  }
+
+  .name-navbar-hidden-signIn {
+    font-size: 20px;
+    display: block;
+    margin-right: 30px;
+  }
+ 
+  .Navbar {
+    background: #511845;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+
+}
